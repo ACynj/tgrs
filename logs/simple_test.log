@@ -1,0 +1,1461 @@
+2026-02-09 15:47:41,505 - Parsed Input Arguments:
+2026-02-09 15:47:41,505 - model_arch: Fed_Fusion
+2026-02-09 15:47:41,505 - mode: MML
+2026-02-09 15:47:41,505 - inference_only: 0
+2026-02-09 15:47:41,506 - with_svd: 0
+2026-02-09 15:47:41,506 - svd_k: 4
+2026-02-09 15:47:41,506 - dataset_name: trento
+2026-02-09 15:47:41,506 - device: cpu
+2026-02-09 15:47:41,506 - output_dir: ./output/simple_test
+2026-02-09 15:47:41,506 - save_excel: 1
+2026-02-09 15:47:41,506 - save_png: 1
+2026-02-09 15:47:41,506 - log_path: ./logs\simple_test.log
+2026-02-09 15:47:41,506 - log_epoch: 1
+2026-02-09 16:01:18,338 - Parsed Input Arguments:
+2026-02-09 16:01:18,338 - model_arch: Fed_Fusion
+2026-02-09 16:01:18,338 - mode: MML
+2026-02-09 16:01:18,340 - inference_only: 0
+2026-02-09 16:01:18,340 - with_svd: 0
+2026-02-09 16:01:18,341 - svd_k: 4
+2026-02-09 16:01:18,341 - dataset_name: trento
+2026-02-09 16:01:18,341 - device: cpu
+2026-02-09 16:01:18,341 - output_dir: ./output/simple_test
+2026-02-09 16:01:18,341 - save_excel: 1
+2026-02-09 16:01:18,341 - save_png: 1
+2026-02-09 16:01:18,341 - log_path: ./logs\simple_test.log
+2026-02-09 16:01:18,341 - log_epoch: 1
+2026-02-09 16:01:20,465 - epoches = 200, batch size = 64, base learning rate = 0.001, weight decay = 0.001
+2026-02-09 16:01:20,714 - HSI_TrSet.shape =  (24169, 3087)
+2026-02-09 16:01:20,714 - HSI_TeSet.shape =  (6045, 3087)
+2026-02-09 16:01:20,714 - LiDAR_TrSet.shape =  (24169, 49)
+2026-02-09 16:01:20,714 - LiDAR_TeSet.shape =  (6045, 49)
+2026-02-09 16:01:20,714 - Y_train.shape =  (24169, 6)
+2026-02-09 16:01:20,715 - Y_test.shape =  (6045, 6)
+2026-02-09 16:10:12,564 - Parsed Input Arguments:
+2026-02-09 16:10:12,564 - model_arch: Fed_Fusion
+2026-02-09 16:10:12,565 - mode: MML
+2026-02-09 16:10:12,565 - inference_only: 0
+2026-02-09 16:10:12,565 - with_svd: 0
+2026-02-09 16:10:12,565 - svd_k: 4
+2026-02-09 16:10:12,565 - dataset_name: trento
+2026-02-09 16:10:12,565 - device: cpu
+2026-02-09 16:10:12,565 - output_dir: ./output/simple_test
+2026-02-09 16:10:12,565 - save_excel: 1
+2026-02-09 16:10:12,565 - save_png: 1
+2026-02-09 16:10:12,565 - log_path: ./logs\simple_test.log
+2026-02-09 16:10:12,565 - log_epoch: 1
+2026-02-09 16:10:13,808 - epoches = 200, batch size = 64, base learning rate = 0.001, weight decay = 0.001
+2026-02-09 16:10:13,959 - HSI_TrSet.shape =  (24169, 3087)
+2026-02-09 16:10:13,959 - HSI_TeSet.shape =  (6045, 3087)
+2026-02-09 16:10:13,959 - LiDAR_TrSet.shape =  (24169, 49)
+2026-02-09 16:10:13,959 - LiDAR_TeSet.shape =  (6045, 49)
+2026-02-09 16:10:13,959 - Y_train.shape =  (24169, 6)
+2026-02-09 16:10:13,959 - Y_test.shape =  (6045, 6)
+2026-02-09 16:10:28,609 - epoch 0: Train_loss: 1.337136, Test_loss: 3.046358, Train_OA: 0.963093, Test_OA: 0.983954, Test_AA: 0.869153, Kappa:0.98
+2026-02-09 16:10:28,609 - This is round 0, the accuracy of class 1: 0.9926
+2026-02-09 16:10:28,609 - This is round 0, the accuracy of class 2: 0.9880
+2026-02-09 16:10:28,610 - This is round 0, the accuracy of class 3: 0.2500
+2026-02-09 16:10:28,610 - This is round 0, the accuracy of class 4: 1.0000
+2026-02-09 16:10:28,610 - This is round 0, the accuracy of class 5: 0.9986
+2026-02-09 16:10:28,610 - This is round 0, the accuracy of class 6: 0.9858
+2026-02-09 16:10:43,808 - epoch 1: Train_loss: 1.335611, Test_loss: 2.869663, Train_OA: 0.988415, Test_OA: 0.986104, Test_AA: 0.881056, Kappa:0.98
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 1: 0.9963
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 2: 0.9880
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 3: 0.3125
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 4: 1.0000
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 5: 0.9990
+2026-02-09 16:10:43,809 - This is round 1, the accuracy of class 6: 0.9906
+2026-02-09 16:10:58,788 - epoch 2: Train_loss: 1.022721, Test_loss: 2.854057, Train_OA: 0.991684, Test_OA: 0.994210, Test_AA: 0.974864, Kappa:0.99
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 1: 1.0000
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 2: 0.9931
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 3: 0.8750
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 4: 1.0000
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 5: 0.9952
+2026-02-09 16:10:58,789 - This is round 2, the accuracy of class 6: 0.9858
+2026-02-09 16:11:12,909 - epoch 3: Train_loss: 0.910067, Test_loss: 2.660411, Train_OA: 0.992883, Test_OA: 0.994376, Test_AA: 0.976832, Kappa:0.99
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 1: 1.0000
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 2: 0.9966
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 3: 0.8854
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 4: 1.0000
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 5: 0.9948
+2026-02-09 16:11:12,910 - This is round 3, the accuracy of class 6: 0.9843
+2026-02-09 16:11:27,297 - epoch 4: Train_loss: 0.718805, Test_loss: 2.409494, Train_OA: 0.993711, Test_OA: 0.995368, Test_AA: 0.970536, Kappa:0.99
+2026-02-09 16:11:27,297 - This is round 4, the accuracy of class 1: 0.9975
+2026-02-09 16:11:27,298 - This is round 4, the accuracy of class 2: 0.9914
+2026-02-09 16:11:27,298 - This is round 4, the accuracy of class 3: 0.8438
+2026-02-09 16:11:27,298 - This is round 4, the accuracy of class 4: 1.0000
+2026-02-09 16:11:27,298 - This is round 4, the accuracy of class 5: 1.0000
+2026-02-09 16:11:27,298 - This is round 4, the accuracy of class 6: 0.9906
+2026-02-09 16:11:41,553 - epoch 5: Train_loss: 0.735443, Test_loss: 2.306955, Train_OA: 0.994083, Test_OA: 0.993052, Test_AA: 0.970690, Kappa:0.99
+2026-02-09 16:11:41,554 - This is round 5, the accuracy of class 1: 1.0000
+2026-02-09 16:11:41,554 - This is round 5, the accuracy of class 2: 0.9983
+2026-02-09 16:11:41,554 - This is round 5, the accuracy of class 3: 0.8542
+2026-02-09 16:11:41,554 - This is round 5, the accuracy of class 4: 0.9995
+2026-02-09 16:11:41,554 - This is round 5, the accuracy of class 5: 0.9943
+2026-02-09 16:11:41,555 - This is round 5, the accuracy of class 6: 0.9780
+2026-02-09 16:11:55,906 - epoch 6: Train_loss: 0.631575, Test_loss: 2.373314, Train_OA: 0.994042, Test_OA: 0.996526, Test_AA: 0.987596, Kappa:1.00
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 1: 1.0000
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 2: 0.9948
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 3: 0.9479
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 4: 1.0000
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 5: 0.9986
+2026-02-09 16:11:55,907 - This is round 6, the accuracy of class 6: 0.9843
+2026-02-09 16:12:10,239 - epoch 7: Train_loss: 0.527497, Test_loss: 2.470961, Train_OA: 0.994166, Test_OA: 0.995203, Test_AA: 0.973597, Kappa:0.99
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 1: 1.0000
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 2: 1.0000
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 3: 0.8646
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 4: 1.0000
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 5: 0.9990
+2026-02-09 16:12:10,240 - This is round 7, the accuracy of class 6: 0.9780
+2026-02-09 16:12:24,487 - epoch 8: Train_loss: 0.490821, Test_loss: 2.319307, Train_OA: 0.994414, Test_OA: 0.988916, Test_AA: 0.955377, Kappa:0.99
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 1: 1.0000
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 2: 0.9380
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 3: 0.8125
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 4: 1.0000
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 5: 0.9990
+2026-02-09 16:12:24,488 - This is round 8, the accuracy of class 6: 0.9827
+2026-02-09 16:12:38,665 - epoch 9: Train_loss: 0.481042, Test_loss: 2.275093, Train_OA: 0.993587, Test_OA: 0.997022, Test_AA: 0.986263, Kappa:1.00
+2026-02-09 16:12:38,666 - This is round 9, the accuracy of class 1: 1.0000
+2026-02-09 16:12:38,666 - This is round 9, the accuracy of class 2: 0.9880
+2026-02-09 16:12:38,666 - This is round 9, the accuracy of class 3: 0.9375
+2026-02-09 16:12:38,666 - This is round 9, the accuracy of class 4: 1.0000
+2026-02-09 16:12:38,667 - This is round 9, the accuracy of class 5: 1.0000
+2026-02-09 16:12:38,667 - This is round 9, the accuracy of class 6: 0.9921
+2026-02-09 16:12:52,843 - epoch 10: Train_loss: 0.349635, Test_loss: 2.110480, Train_OA: 0.993794, Test_OA: 0.985608, Test_AA: 0.966021, Kappa:0.98
+2026-02-09 16:12:52,844 - This is round 10, the accuracy of class 1: 0.9913
+2026-02-09 16:12:52,844 - This is round 10, the accuracy of class 2: 0.9897
+2026-02-09 16:12:52,844 - This is round 10, the accuracy of class 3: 0.8542
+2026-02-09 16:12:52,844 - This is round 10, the accuracy of class 4: 0.9704
+2026-02-09 16:12:52,845 - This is round 10, the accuracy of class 5: 1.0000
+2026-02-09 16:12:52,845 - This is round 10, the accuracy of class 6: 0.9906
+2026-02-09 16:13:07,227 - epoch 11: Train_loss: 0.341699, Test_loss: 1.842987, Train_OA: 0.993835, Test_OA: 0.994045, Test_AA: 0.970421, Kappa:0.99
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 1: 1.0000
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 2: 0.9966
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 3: 0.8542
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 4: 1.0000
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 5: 0.9986
+2026-02-09 16:13:07,227 - This is round 11, the accuracy of class 6: 0.9732
+2026-02-09 16:13:21,422 - epoch 12: Train_loss: 0.309756, Test_loss: 1.923974, Train_OA: 0.993959, Test_OA: 0.996361, Test_AA: 0.988063, Kappa:1.00
+2026-02-09 16:13:21,422 - This is round 12, the accuracy of class 1: 1.0000
+2026-02-09 16:13:21,422 - This is round 12, the accuracy of class 2: 0.9811
+2026-02-09 16:13:21,422 - This is round 12, the accuracy of class 3: 0.9583
+2026-02-09 16:13:21,423 - This is round 12, the accuracy of class 4: 1.0000
+2026-02-09 16:13:21,423 - This is round 12, the accuracy of class 5: 1.0000
+2026-02-09 16:13:21,423 - This is round 12, the accuracy of class 6: 0.9890
+2026-02-09 16:13:35,608 - epoch 13: Train_loss: 0.262280, Test_loss: 1.997698, Train_OA: 0.993794, Test_OA: 0.996030, Test_AA: 0.984615, Kappa:0.99
+2026-02-09 16:13:35,608 - This is round 13, the accuracy of class 1: 1.0000
+2026-02-09 16:13:35,608 - This is round 13, the accuracy of class 2: 0.9828
+2026-02-09 16:13:35,609 - This is round 13, the accuracy of class 3: 0.9375
+2026-02-09 16:13:35,609 - This is round 13, the accuracy of class 4: 1.0000
+2026-02-09 16:13:35,609 - This is round 13, the accuracy of class 5: 1.0000
+2026-02-09 16:13:35,609 - This is round 13, the accuracy of class 6: 0.9874
+2026-02-09 16:13:49,847 - epoch 14: Train_loss: 0.326285, Test_loss: 1.814812, Train_OA: 0.994042, Test_OA: 0.994210, Test_AA: 0.969921, Kappa:0.99
+2026-02-09 16:13:49,848 - This is round 14, the accuracy of class 1: 0.9988
+2026-02-09 16:13:49,848 - This is round 14, the accuracy of class 2: 0.9776
+2026-02-09 16:13:49,848 - This is round 14, the accuracy of class 3: 0.8542
+2026-02-09 16:13:49,848 - This is round 14, the accuracy of class 4: 1.0000
+2026-02-09 16:13:49,849 - This is round 14, the accuracy of class 5: 1.0000
+2026-02-09 16:13:49,849 - This is round 14, the accuracy of class 6: 0.9890
+2026-02-09 16:14:04,183 - epoch 15: Train_loss: 0.242470, Test_loss: 1.615786, Train_OA: 0.994125, Test_OA: 0.994045, Test_AA: 0.973070, Kappa:0.99
+2026-02-09 16:14:04,183 - This is round 15, the accuracy of class 1: 0.9988
+2026-02-09 16:14:04,183 - This is round 15, the accuracy of class 2: 0.9983
+2026-02-09 16:14:04,184 - This is round 15, the accuracy of class 3: 0.8750
+2026-02-09 16:14:04,184 - This is round 15, the accuracy of class 4: 0.9995
+2026-02-09 16:14:04,184 - This is round 15, the accuracy of class 5: 1.0000
+2026-02-09 16:14:04,184 - This is round 15, the accuracy of class 6: 0.9669
+2026-02-09 16:14:18,684 - epoch 16: Train_loss: 0.294176, Test_loss: 1.849987, Train_OA: 0.994207, Test_OA: 0.991894, Test_AA: 0.987721, Kappa:0.99
+2026-02-09 16:14:18,684 - This is round 16, the accuracy of class 1: 0.9566
+2026-02-09 16:14:18,685 - This is round 16, the accuracy of class 2: 0.9948
+2026-02-09 16:14:18,685 - This is round 16, the accuracy of class 3: 0.9896
+2026-02-09 16:14:18,685 - This is round 16, the accuracy of class 4: 0.9995
+2026-02-09 16:14:18,685 - This is round 16, the accuracy of class 5: 1.0000
+2026-02-09 16:14:18,686 - This is round 16, the accuracy of class 6: 0.9858
+2026-02-09 16:14:33,171 - epoch 17: Train_loss: 0.305755, Test_loss: 2.188685, Train_OA: 0.994042, Test_OA: 0.996195, Test_AA: 0.988251, Kappa:0.99
+2026-02-09 16:14:33,171 - This is round 17, the accuracy of class 1: 0.9938
+2026-02-09 16:14:33,171 - This is round 17, the accuracy of class 2: 0.9931
+2026-02-09 16:14:33,171 - This is round 17, the accuracy of class 3: 0.9583
+2026-02-09 16:14:33,172 - This is round 17, the accuracy of class 4: 1.0000
+2026-02-09 16:14:33,172 - This is round 17, the accuracy of class 5: 1.0000
+2026-02-09 16:14:33,172 - This is round 17, the accuracy of class 6: 0.9843
+2026-02-09 16:14:48,130 - epoch 18: Train_loss: 0.288608, Test_loss: 1.578807, Train_OA: 0.994580, Test_OA: 0.993383, Test_AA: 0.958447, Kappa:0.99
+2026-02-09 16:14:48,130 - This is round 18, the accuracy of class 1: 0.9975
+2026-02-09 16:14:48,130 - This is round 18, the accuracy of class 2: 0.9845
+2026-02-09 16:14:48,131 - This is round 18, the accuracy of class 3: 0.7812
+2026-02-09 16:14:48,131 - This is round 18, the accuracy of class 4: 1.0000
+2026-02-09 16:14:48,131 - This is round 18, the accuracy of class 5: 1.0000
+2026-02-09 16:14:48,131 - This is round 18, the accuracy of class 6: 0.9874
+2026-02-09 16:15:05,190 - epoch 19: Train_loss: 0.260861, Test_loss: 1.726839, Train_OA: 0.993959, Test_OA: 0.996526, Test_AA: 0.988681, Kappa:1.00
+2026-02-09 16:15:05,190 - This is round 19, the accuracy of class 1: 0.9975
+2026-02-09 16:15:05,191 - This is round 19, the accuracy of class 2: 0.9862
+2026-02-09 16:15:05,191 - This is round 19, the accuracy of class 3: 0.9583
+2026-02-09 16:15:05,191 - This is round 19, the accuracy of class 4: 0.9995
+2026-02-09 16:15:05,191 - This is round 19, the accuracy of class 5: 1.0000
+2026-02-09 16:15:05,191 - This is round 19, the accuracy of class 6: 0.9906
+2026-02-09 16:15:25,026 - epoch 20: Train_loss: 0.301219, Test_loss: 2.153786, Train_OA: 0.994249, Test_OA: 0.985112, Test_AA: 0.967447, Kappa:0.98
+2026-02-09 16:15:25,026 - This is round 20, the accuracy of class 1: 0.9988
+2026-02-09 16:15:25,027 - This is round 20, the accuracy of class 2: 0.9811
+2026-02-09 16:15:25,027 - This is round 20, the accuracy of class 3: 0.8646
+2026-02-09 16:15:25,027 - This is round 20, the accuracy of class 4: 1.0000
+2026-02-09 16:15:25,027 - This is round 20, the accuracy of class 5: 0.9729
+2026-02-09 16:15:25,027 - This is round 20, the accuracy of class 6: 0.9874
+2026-02-09 16:15:48,080 - epoch 21: Train_loss: 0.321520, Test_loss: 1.919791, Train_OA: 0.993959, Test_OA: 0.994541, Test_AA: 0.973620, Kappa:0.99
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 1: 0.9975
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 2: 0.9897
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 3: 0.8750
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 4: 1.0000
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 5: 1.0000
+2026-02-09 16:15:48,081 - This is round 21, the accuracy of class 6: 0.9795
+2026-02-09 16:16:12,674 - epoch 22: Train_loss: 0.274453, Test_loss: 1.865277, Train_OA: 0.994663, Test_OA: 0.993548, Test_AA: 0.975028, Kappa:0.99
+2026-02-09 16:16:12,674 - This is round 22, the accuracy of class 1: 1.0000
+2026-02-09 16:16:12,675 - This is round 22, the accuracy of class 2: 0.9742
+2026-02-09 16:16:12,675 - This is round 22, the accuracy of class 3: 0.8958
+2026-02-09 16:16:12,675 - This is round 22, the accuracy of class 4: 1.0000
+2026-02-09 16:16:12,675 - This is round 22, the accuracy of class 5: 0.9990
+2026-02-09 16:16:12,676 - This is round 22, the accuracy of class 6: 0.9811
+2026-02-09 16:16:38,536 - epoch 23: Train_loss: 0.330536, Test_loss: 2.033156, Train_OA: 0.995159, Test_OA: 0.992887, Test_AA: 0.985338, Kappa:0.99
+2026-02-09 16:16:38,536 - This is round 23, the accuracy of class 1: 0.9839
+2026-02-09 16:16:38,537 - This is round 23, the accuracy of class 2: 0.9966
+2026-02-09 16:16:38,537 - This is round 23, the accuracy of class 3: 0.9688
+2026-02-09 16:16:38,537 - This is round 23, the accuracy of class 4: 1.0000
+2026-02-09 16:16:38,537 - This is round 23, the accuracy of class 5: 0.9990
+2026-02-09 16:16:38,537 - This is round 23, the accuracy of class 6: 0.9638
+2026-02-09 16:17:04,967 - epoch 24: Train_loss: 0.268397, Test_loss: 2.295727, Train_OA: 0.993752, Test_OA: 0.996526, Test_AA: 0.994569, Kappa:1.00
+2026-02-09 16:17:04,968 - This is round 24, the accuracy of class 1: 0.9988
+2026-02-09 16:17:04,968 - This is round 24, the accuracy of class 2: 0.9759
+2026-02-09 16:17:04,968 - This is round 24, the accuracy of class 3: 1.0000
+2026-02-09 16:17:04,968 - This is round 24, the accuracy of class 4: 1.0000
+2026-02-09 16:17:04,968 - This is round 24, the accuracy of class 5: 0.9990
+2026-02-09 16:17:04,969 - This is round 24, the accuracy of class 6: 0.9937
+2026-02-09 16:17:31,981 - epoch 25: Train_loss: 0.249139, Test_loss: 2.438915, Train_OA: 0.994290, Test_OA: 0.994376, Test_AA: 0.986527, Kappa:0.99
+2026-02-09 16:17:31,981 - This is round 25, the accuracy of class 1: 0.9926
+2026-02-09 16:17:31,981 - This is round 25, the accuracy of class 2: 0.9673
+2026-02-09 16:17:31,982 - This is round 25, the accuracy of class 3: 0.9688
+2026-02-09 16:17:31,982 - This is round 25, the accuracy of class 4: 1.0000
+2026-02-09 16:17:31,982 - This is round 25, the accuracy of class 5: 1.0000
+2026-02-09 16:17:31,982 - This is round 25, the accuracy of class 6: 0.9906
+2026-02-09 16:17:59,877 - epoch 26: Train_loss: 0.241468, Test_loss: 2.447095, Train_OA: 0.994828, Test_OA: 0.997353, Test_AA: 0.992780, Kappa:1.00
+2026-02-09 16:17:59,877 - This is round 26, the accuracy of class 1: 1.0000
+2026-02-09 16:17:59,877 - This is round 26, the accuracy of class 2: 0.9948
+2026-02-09 16:17:59,877 - This is round 26, the accuracy of class 3: 0.9792
+2026-02-09 16:17:59,878 - This is round 26, the accuracy of class 4: 1.0000
+2026-02-09 16:17:59,878 - This is round 26, the accuracy of class 5: 1.0000
+2026-02-09 16:17:59,878 - This is round 26, the accuracy of class 6: 0.9827
+2026-02-09 16:18:29,209 - epoch 27: Train_loss: 0.294577, Test_loss: 2.520168, Train_OA: 0.994952, Test_OA: 0.996526, Test_AA: 0.994510, Kappa:1.00
+2026-02-09 16:18:29,209 - This is round 27, the accuracy of class 1: 0.9963
+2026-02-09 16:18:29,209 - This is round 27, the accuracy of class 2: 0.9897
+2026-02-09 16:18:29,209 - This is round 27, the accuracy of class 3: 1.0000
+2026-02-09 16:18:29,210 - This is round 27, the accuracy of class 4: 1.0000
+2026-02-09 16:18:29,210 - This is round 27, the accuracy of class 5: 1.0000
+2026-02-09 16:18:29,210 - This is round 27, the accuracy of class 6: 0.9811
+2026-02-09 16:18:59,726 - epoch 28: Train_loss: 0.259502, Test_loss: 2.407813, Train_OA: 0.995242, Test_OA: 0.997519, Test_AA: 0.989012, Kappa:1.00
+2026-02-09 16:18:59,726 - This is round 28, the accuracy of class 1: 1.0000
+2026-02-09 16:18:59,726 - This is round 28, the accuracy of class 2: 0.9966
+2026-02-09 16:18:59,727 - This is round 28, the accuracy of class 3: 0.9479
+2026-02-09 16:18:59,727 - This is round 28, the accuracy of class 4: 1.0000
+2026-02-09 16:18:59,727 - This is round 28, the accuracy of class 5: 0.9990
+2026-02-09 16:18:59,727 - This is round 28, the accuracy of class 6: 0.9906
+2026-02-09 16:19:31,375 - epoch 29: Train_loss: 0.260926, Test_loss: 2.548692, Train_OA: 0.995449, Test_OA: 0.996526, Test_AA: 0.992785, Kappa:1.00
+2026-02-09 16:19:31,375 - This is round 29, the accuracy of class 1: 0.9975
+2026-02-09 16:19:31,376 - This is round 29, the accuracy of class 2: 0.9759
+2026-02-09 16:19:31,376 - This is round 29, the accuracy of class 3: 0.9896
+2026-02-09 16:19:31,376 - This is round 29, the accuracy of class 4: 1.0000
+2026-02-09 16:19:31,376 - This is round 29, the accuracy of class 5: 1.0000
+2026-02-09 16:19:31,376 - This is round 29, the accuracy of class 6: 0.9937
+2026-02-09 16:20:05,148 - epoch 30: Train_loss: 0.207572, Test_loss: 2.599365, Train_OA: 0.996773, Test_OA: 0.996195, Test_AA: 0.990971, Kappa:0.99
+2026-02-09 16:20:05,148 - This is round 30, the accuracy of class 1: 0.9950
+2026-02-09 16:20:05,148 - This is round 30, the accuracy of class 2: 0.9811
+2026-02-09 16:20:05,148 - This is round 30, the accuracy of class 3: 0.9792
+2026-02-09 16:20:05,149 - This is round 30, the accuracy of class 4: 1.0000
+2026-02-09 16:20:05,149 - This is round 30, the accuracy of class 5: 1.0000
+2026-02-09 16:20:05,149 - This is round 30, the accuracy of class 6: 0.9906
+2026-02-09 16:20:41,721 - epoch 31: Train_loss: 0.242025, Test_loss: 3.095192, Train_OA: 0.997186, Test_OA: 0.995534, Test_AA: 0.991391, Kappa:0.99
+2026-02-09 16:20:41,721 - This is round 31, the accuracy of class 1: 1.0000
+2026-02-09 16:20:41,721 - This is round 31, the accuracy of class 2: 0.9966
+2026-02-09 16:20:41,722 - This is round 31, the accuracy of class 3: 0.9896
+2026-02-09 16:20:41,722 - This is round 31, the accuracy of class 4: 1.0000
+2026-02-09 16:20:41,722 - This is round 31, the accuracy of class 5: 1.0000
+2026-02-09 16:20:41,722 - This is round 31, the accuracy of class 6: 0.9622
+2026-02-09 16:21:17,767 - epoch 32: Train_loss: 0.257635, Test_loss: 2.509403, Train_OA: 0.996814, Test_OA: 0.996361, Test_AA: 0.994481, Kappa:1.00
+2026-02-09 16:21:17,767 - This is round 32, the accuracy of class 1: 0.9938
+2026-02-09 16:21:17,767 - This is round 32, the accuracy of class 2: 0.9862
+2026-02-09 16:21:17,767 - This is round 32, the accuracy of class 3: 1.0000
+2026-02-09 16:21:17,767 - This is round 32, the accuracy of class 4: 0.9995
+2026-02-09 16:21:17,767 - This is round 32, the accuracy of class 5: 1.0000
+2026-02-09 16:21:17,768 - This is round 32, the accuracy of class 6: 0.9874
+2026-02-09 16:21:54,334 - epoch 33: Train_loss: 0.209757, Test_loss: 2.710505, Train_OA: 0.996649, Test_OA: 0.997684, Test_AA: 0.993329, Kappa:1.00
+2026-02-09 16:21:54,334 - This is round 33, the accuracy of class 1: 1.0000
+2026-02-09 16:21:54,334 - This is round 33, the accuracy of class 2: 0.9966
+2026-02-09 16:21:54,334 - This is round 33, the accuracy of class 3: 0.9792
+2026-02-09 16:21:54,334 - This is round 33, the accuracy of class 4: 1.0000
+2026-02-09 16:21:54,335 - This is round 33, the accuracy of class 5: 1.0000
+2026-02-09 16:21:54,335 - This is round 33, the accuracy of class 6: 0.9843
+2026-02-09 16:22:30,743 - epoch 34: Train_loss: 0.219025, Test_loss: 3.060470, Train_OA: 0.997062, Test_OA: 0.995534, Test_AA: 0.991054, Kappa:0.99
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 1: 1.0000
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 2: 0.9897
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 3: 0.9792
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 4: 0.9978
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 5: 0.9986
+2026-02-09 16:22:30,744 - This is round 34, the accuracy of class 6: 0.9811
+2026-02-09 16:23:07,231 - epoch 35: Train_loss: 0.196560, Test_loss: 2.740412, Train_OA: 0.996855, Test_OA: 0.995864, Test_AA: 0.985833, Kappa:0.99
+2026-02-09 16:23:07,231 - This is round 35, the accuracy of class 1: 0.9988
+2026-02-09 16:23:07,232 - This is round 35, the accuracy of class 2: 0.9793
+2026-02-09 16:23:07,232 - This is round 35, the accuracy of class 3: 0.9479
+2026-02-09 16:23:07,232 - This is round 35, the accuracy of class 4: 1.0000
+2026-02-09 16:23:07,232 - This is round 35, the accuracy of class 5: 1.0000
+2026-02-09 16:23:07,232 - This is round 35, the accuracy of class 6: 0.9890
+2026-02-09 16:23:43,679 - epoch 36: Train_loss: 0.212354, Test_loss: 2.769829, Train_OA: 0.996855, Test_OA: 0.997519, Test_AA: 0.995973, Kappa:1.00
+2026-02-09 16:23:43,679 - This is round 36, the accuracy of class 1: 0.9988
+2026-02-09 16:23:43,680 - This is round 36, the accuracy of class 2: 0.9897
+2026-02-09 16:23:43,680 - This is round 36, the accuracy of class 3: 1.0000
+2026-02-09 16:23:43,680 - This is round 36, the accuracy of class 4: 1.0000
+2026-02-09 16:23:43,680 - This is round 36, the accuracy of class 5: 1.0000
+2026-02-09 16:23:43,680 - This is round 36, the accuracy of class 6: 0.9874
+2026-02-09 16:24:20,751 - epoch 37: Train_loss: 0.181397, Test_loss: 2.760593, Train_OA: 0.996773, Test_OA: 0.994045, Test_AA: 0.979294, Kappa:0.99
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 1: 0.9839
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 2: 0.9862
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 3: 0.9167
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 4: 1.0000
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 5: 1.0000
+2026-02-09 16:24:20,752 - This is round 37, the accuracy of class 6: 0.9890
+2026-02-09 16:25:00,507 - epoch 38: Train_loss: 0.196916, Test_loss: 2.936165, Train_OA: 0.996566, Test_OA: 0.997684, Test_AA: 0.996082, Kappa:1.00
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 1: 1.0000
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 2: 0.9828
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 3: 1.0000
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 4: 1.0000
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 5: 1.0000
+2026-02-09 16:25:00,508 - This is round 38, the accuracy of class 6: 0.9937
+2026-02-09 16:25:45,204 - epoch 39: Train_loss: 0.211303, Test_loss: 3.440328, Train_OA: 0.996897, Test_OA: 0.998015, Test_AA: 0.993886, Kappa:1.00
+2026-02-09 16:25:45,204 - This is round 39, the accuracy of class 1: 0.9988
+2026-02-09 16:25:45,205 - This is round 39, the accuracy of class 2: 0.9948
+2026-02-09 16:25:45,205 - This is round 39, the accuracy of class 3: 0.9792
+2026-02-09 16:25:45,205 - This is round 39, the accuracy of class 4: 1.0000
+2026-02-09 16:25:45,205 - This is round 39, the accuracy of class 5: 1.0000
+2026-02-09 16:25:45,205 - This is round 39, the accuracy of class 6: 0.9906
+2026-02-09 16:26:30,796 - epoch 40: Train_loss: 0.167053, Test_loss: 3.200075, Train_OA: 0.997269, Test_OA: 0.996526, Test_AA: 0.991175, Kappa:1.00
+2026-02-09 16:26:30,796 - This is round 40, the accuracy of class 1: 1.0000
+2026-02-09 16:26:30,797 - This is round 40, the accuracy of class 2: 0.9742
+2026-02-09 16:26:30,797 - This is round 40, the accuracy of class 3: 0.9792
+2026-02-09 16:26:30,797 - This is round 40, the accuracy of class 4: 1.0000
+2026-02-09 16:26:30,797 - This is round 40, the accuracy of class 5: 1.0000
+2026-02-09 16:26:30,798 - This is round 40, the accuracy of class 6: 0.9937
+2026-02-09 16:27:17,891 - epoch 41: Train_loss: 0.192235, Test_loss: 3.580017, Train_OA: 0.996649, Test_OA: 0.993548, Test_AA: 0.971190, Kappa:0.99
+2026-02-09 16:27:17,891 - This is round 41, the accuracy of class 1: 0.9963
+2026-02-09 16:27:17,892 - This is round 41, the accuracy of class 2: 0.9776
+2026-02-09 16:27:17,892 - This is round 41, the accuracy of class 3: 0.8646
+2026-02-09 16:27:17,892 - This is round 41, the accuracy of class 4: 1.0000
+2026-02-09 16:27:17,892 - This is round 41, the accuracy of class 5: 0.9981
+2026-02-09 16:27:17,892 - This is round 41, the accuracy of class 6: 0.9906
+2026-02-09 16:28:06,305 - epoch 42: Train_loss: 0.156429, Test_loss: 2.544371, Train_OA: 0.997021, Test_OA: 0.997353, Test_AA: 0.995581, Kappa:1.00
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 1: 1.0000
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 2: 0.9845
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 3: 1.0000
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 4: 1.0000
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 5: 1.0000
+2026-02-09 16:28:06,305 - This is round 42, the accuracy of class 6: 0.9890
+2026-02-09 16:28:54,922 - epoch 43: Train_loss: 0.149291, Test_loss: 3.126604, Train_OA: 0.996980, Test_OA: 0.997849, Test_AA: 0.996553, Kappa:1.00
+2026-02-09 16:28:54,922 - This is round 43, the accuracy of class 1: 0.9975
+2026-02-09 16:28:54,923 - This is round 43, the accuracy of class 2: 0.9897
+2026-02-09 16:28:54,923 - This is round 43, the accuracy of class 3: 1.0000
+2026-02-09 16:28:54,923 - This is round 43, the accuracy of class 4: 1.0000
+2026-02-09 16:28:54,923 - This is round 43, the accuracy of class 5: 1.0000
+2026-02-09 16:28:54,923 - This is round 43, the accuracy of class 6: 0.9921
+2026-02-09 16:29:43,796 - epoch 44: Train_loss: 0.185313, Test_loss: 2.872041, Train_OA: 0.997352, Test_OA: 0.997849, Test_AA: 0.993519, Kappa:1.00
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 1: 1.0000
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 2: 0.9914
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 3: 0.9792
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 4: 1.0000
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 5: 1.0000
+2026-02-09 16:29:43,797 - This is round 44, the accuracy of class 6: 0.9906
+2026-02-09 16:30:32,422 - epoch 45: Train_loss: 0.193293, Test_loss: 3.157959, Train_OA: 0.997683, Test_OA: 0.996361, Test_AA: 0.990489, Kappa:1.00
+2026-02-09 16:30:32,423 - This is round 45, the accuracy of class 1: 1.0000
+2026-02-09 16:30:32,423 - This is round 45, the accuracy of class 2: 0.9966
+2026-02-09 16:30:32,423 - This is round 45, the accuracy of class 3: 0.9688
+2026-02-09 16:30:32,423 - This is round 45, the accuracy of class 4: 1.0000
+2026-02-09 16:30:32,424 - This is round 45, the accuracy of class 5: 0.9981
+2026-02-09 16:30:32,424 - This is round 45, the accuracy of class 6: 0.9795
+2026-02-09 16:31:20,557 - epoch 46: Train_loss: 0.153061, Test_loss: 3.344644, Train_OA: 0.996980, Test_OA: 0.995699, Test_AA: 0.990404, Kappa:0.99
+2026-02-09 16:31:20,557 - This is round 46, the accuracy of class 1: 0.9950
+2026-02-09 16:31:20,557 - This is round 46, the accuracy of class 2: 0.9966
+2026-02-09 16:31:20,558 - This is round 46, the accuracy of class 3: 0.9792
+2026-02-09 16:31:20,558 - This is round 46, the accuracy of class 4: 1.0000
+2026-02-09 16:31:20,558 - This is round 46, the accuracy of class 5: 1.0000
+2026-02-09 16:31:20,558 - This is round 46, the accuracy of class 6: 0.9717
+2026-02-09 16:32:09,242 - epoch 47: Train_loss: 0.199587, Test_loss: 2.723528, Train_OA: 0.997186, Test_OA: 0.996361, Test_AA: 0.985091, Kappa:1.00
+2026-02-09 16:32:09,242 - This is round 47, the accuracy of class 1: 1.0000
+2026-02-09 16:32:09,242 - This is round 47, the accuracy of class 2: 0.9793
+2026-02-09 16:32:09,242 - This is round 47, the accuracy of class 3: 0.9375
+2026-02-09 16:32:09,242 - This is round 47, the accuracy of class 4: 1.0000
+2026-02-09 16:32:09,243 - This is round 47, the accuracy of class 5: 1.0000
+2026-02-09 16:32:09,243 - This is round 47, the accuracy of class 6: 0.9937
+2026-02-09 16:32:57,772 - epoch 48: Train_loss: 0.176635, Test_loss: 2.973355, Train_OA: 0.997021, Test_OA: 0.997188, Test_AA: 0.992518, Kappa:1.00
+2026-02-09 16:32:57,773 - This is round 48, the accuracy of class 1: 1.0000
+2026-02-09 16:32:57,773 - This is round 48, the accuracy of class 2: 0.9948
+2026-02-09 16:32:57,773 - This is round 48, the accuracy of class 3: 0.9792
+2026-02-09 16:32:57,773 - This is round 48, the accuracy of class 4: 1.0000
+2026-02-09 16:32:57,774 - This is round 48, the accuracy of class 5: 1.0000
+2026-02-09 16:32:57,774 - This is round 48, the accuracy of class 6: 0.9811
+2026-02-09 16:33:46,260 - epoch 49: Train_loss: 0.177022, Test_loss: 2.709029, Train_OA: 0.997062, Test_OA: 0.996691, Test_AA: 0.989052, Kappa:1.00
+2026-02-09 16:33:46,260 - This is round 49, the accuracy of class 1: 1.0000
+2026-02-09 16:33:46,260 - This is round 49, the accuracy of class 2: 0.9880
+2026-02-09 16:33:46,261 - This is round 49, the accuracy of class 3: 0.9583
+2026-02-09 16:33:46,261 - This is round 49, the accuracy of class 4: 1.0000
+2026-02-09 16:33:46,261 - This is round 49, the accuracy of class 5: 0.9990
+2026-02-09 16:33:46,261 - This is round 49, the accuracy of class 6: 0.9890
+2026-02-09 16:34:34,904 - epoch 50: Train_loss: 0.221395, Test_loss: 2.997427, Train_OA: 0.997062, Test_OA: 0.997188, Test_AA: 0.994103, Kappa:1.00
+2026-02-09 16:34:34,904 - This is round 50, the accuracy of class 1: 0.9975
+2026-02-09 16:34:34,905 - This is round 50, the accuracy of class 2: 0.9948
+2026-02-09 16:34:34,905 - This is round 50, the accuracy of class 3: 0.9896
+2026-02-09 16:34:34,905 - This is round 50, the accuracy of class 4: 1.0000
+2026-02-09 16:34:34,905 - This is round 50, the accuracy of class 5: 1.0000
+2026-02-09 16:34:34,905 - This is round 50, the accuracy of class 6: 0.9827
+2026-02-09 16:35:23,291 - epoch 51: Train_loss: 0.144302, Test_loss: 3.253162, Train_OA: 0.996938, Test_OA: 0.997022, Test_AA: 0.992430, Kappa:1.00
+2026-02-09 16:35:23,291 - This is round 51, the accuracy of class 1: 0.9950
+2026-02-09 16:35:23,291 - This is round 51, the accuracy of class 2: 0.9914
+2026-02-09 16:35:23,291 - This is round 51, the accuracy of class 3: 0.9792
+2026-02-09 16:35:23,292 - This is round 51, the accuracy of class 4: 1.0000
+2026-02-09 16:35:23,292 - This is round 51, the accuracy of class 5: 1.0000
+2026-02-09 16:35:23,292 - This is round 51, the accuracy of class 6: 0.9890
+2026-02-09 16:36:11,882 - epoch 52: Train_loss: 0.171229, Test_loss: 2.949095, Train_OA: 0.997145, Test_OA: 0.994872, Test_AA: 0.975580, Kappa:0.99
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 1: 1.0000
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 2: 0.9948
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 3: 0.8854
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 4: 1.0000
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 5: 1.0000
+2026-02-09 16:36:11,882 - This is round 52, the accuracy of class 6: 0.9732
+2026-02-09 16:36:59,914 - epoch 53: Train_loss: 0.198880, Test_loss: 2.896359, Train_OA: 0.997062, Test_OA: 0.997519, Test_AA: 0.994394, Kappa:1.00
+2026-02-09 16:36:59,914 - This is round 53, the accuracy of class 1: 1.0000
+2026-02-09 16:36:59,914 - This is round 53, the accuracy of class 2: 0.9862
+2026-02-09 16:36:59,915 - This is round 53, the accuracy of class 3: 0.9896
+2026-02-09 16:36:59,915 - This is round 53, the accuracy of class 4: 1.0000
+2026-02-09 16:36:59,915 - This is round 53, the accuracy of class 5: 1.0000
+2026-02-09 16:36:59,915 - This is round 53, the accuracy of class 6: 0.9906
+2026-02-09 16:37:48,513 - epoch 54: Train_loss: 0.162358, Test_loss: 2.934625, Train_OA: 0.997311, Test_OA: 0.997519, Test_AA: 0.994660, Kappa:1.00
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 1: 0.9963
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 2: 0.9931
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 3: 0.9896
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 4: 1.0000
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 5: 1.0000
+2026-02-09 16:37:48,514 - This is round 54, the accuracy of class 6: 0.9890
+2026-02-09 16:38:36,721 - epoch 55: Train_loss: 0.167289, Test_loss: 3.056300, Train_OA: 0.997269, Test_OA: 0.985773, Test_AA: 0.968413, Kappa:0.98
+2026-02-09 16:38:36,722 - This is round 55, the accuracy of class 1: 1.0000
+2026-02-09 16:38:36,722 - This is round 55, the accuracy of class 2: 0.8709
+2026-02-09 16:38:36,722 - This is round 55, the accuracy of class 3: 0.9479
+2026-02-09 16:38:36,722 - This is round 55, the accuracy of class 4: 1.0000
+2026-02-09 16:38:36,723 - This is round 55, the accuracy of class 5: 0.9995
+2026-02-09 16:38:36,723 - This is round 55, the accuracy of class 6: 0.9921
+2026-02-09 16:39:24,912 - epoch 56: Train_loss: 0.182281, Test_loss: 2.513915, Train_OA: 0.997021, Test_OA: 0.996361, Test_AA: 0.989970, Kappa:1.00
+2026-02-09 16:39:24,912 - This is round 56, the accuracy of class 1: 0.9926
+2026-02-09 16:39:24,912 - This is round 56, the accuracy of class 2: 0.9880
+2026-02-09 16:39:24,913 - This is round 56, the accuracy of class 3: 0.9688
+2026-02-09 16:39:24,913 - This is round 56, the accuracy of class 4: 1.0000
+2026-02-09 16:39:24,913 - This is round 56, the accuracy of class 5: 1.0000
+2026-02-09 16:39:24,913 - This is round 56, the accuracy of class 6: 0.9906
+2026-02-09 16:40:13,037 - epoch 57: Train_loss: 0.178952, Test_loss: 2.675633, Train_OA: 0.997476, Test_OA: 0.997188, Test_AA: 0.991187, Kappa:1.00
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 1: 0.9963
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 2: 0.9931
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 3: 0.9688
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 4: 1.0000
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 5: 1.0000
+2026-02-09 16:40:13,038 - This is round 57, the accuracy of class 6: 0.9890
+2026-02-09 16:41:01,538 - epoch 58: Train_loss: 0.239727, Test_loss: 2.718960, Train_OA: 0.997352, Test_OA: 0.996195, Test_AA: 0.987825, Kappa:0.99
+2026-02-09 16:41:01,538 - This is round 58, the accuracy of class 1: 1.0000
+2026-02-09 16:41:01,538 - This is round 58, the accuracy of class 2: 0.9828
+2026-02-09 16:41:01,538 - This is round 58, the accuracy of class 3: 0.9583
+2026-02-09 16:41:01,538 - This is round 58, the accuracy of class 4: 1.0000
+2026-02-09 16:41:01,539 - This is round 58, the accuracy of class 5: 1.0000
+2026-02-09 16:41:01,539 - This is round 58, the accuracy of class 6: 0.9858
+2026-02-09 16:41:49,513 - epoch 59: Train_loss: 0.165648, Test_loss: 2.992460, Train_OA: 0.997269, Test_OA: 0.995534, Test_AA: 0.991343, Kappa:0.99
+2026-02-09 16:41:49,513 - This is round 59, the accuracy of class 1: 1.0000
+2026-02-09 16:41:49,514 - This is round 59, the accuracy of class 2: 0.9673
+2026-02-09 16:41:49,514 - This is round 59, the accuracy of class 3: 0.9896
+2026-02-09 16:41:49,514 - This is round 59, the accuracy of class 4: 1.0000
+2026-02-09 16:41:49,514 - This is round 59, the accuracy of class 5: 0.9990
+2026-02-09 16:41:49,514 - This is round 59, the accuracy of class 6: 0.9921
+2026-02-09 16:42:37,200 - epoch 60: Train_loss: 0.158973, Test_loss: 3.335111, Train_OA: 0.997848, Test_OA: 0.997353, Test_AA: 0.992585, Kappa:1.00
+2026-02-09 16:42:37,201 - This is round 60, the accuracy of class 1: 1.0000
+2026-02-09 16:42:37,201 - This is round 60, the accuracy of class 2: 0.9811
+2026-02-09 16:42:37,201 - This is round 60, the accuracy of class 3: 0.9792
+2026-02-09 16:42:37,201 - This is round 60, the accuracy of class 4: 1.0000
+2026-02-09 16:42:37,201 - This is round 60, the accuracy of class 5: 1.0000
+2026-02-09 16:42:37,202 - This is round 60, the accuracy of class 6: 0.9953
+2026-02-09 16:43:24,469 - epoch 61: Train_loss: 0.158891, Test_loss: 3.224841, Train_OA: 0.997931, Test_OA: 0.997684, Test_AA: 0.993495, Kappa:1.00
+2026-02-09 16:43:24,469 - This is round 61, the accuracy of class 1: 0.9988
+2026-02-09 16:43:24,470 - This is round 61, the accuracy of class 2: 0.9914
+2026-02-09 16:43:24,470 - This is round 61, the accuracy of class 3: 0.9792
+2026-02-09 16:43:24,470 - This is round 61, the accuracy of class 4: 1.0000
+2026-02-09 16:43:24,470 - This is round 61, the accuracy of class 5: 0.9995
+2026-02-09 16:43:24,471 - This is round 61, the accuracy of class 6: 0.9921
+2026-02-09 16:44:13,324 - epoch 62: Train_loss: 0.144857, Test_loss: 3.066389, Train_OA: 0.998552, Test_OA: 0.996857, Test_AA: 0.990543, Kappa:1.00
+2026-02-09 16:44:13,324 - This is round 62, the accuracy of class 1: 1.0000
+2026-02-09 16:44:13,324 - This is round 62, the accuracy of class 2: 0.9966
+2026-02-09 16:44:13,325 - This is round 62, the accuracy of class 3: 0.9688
+2026-02-09 16:44:13,325 - This is round 62, the accuracy of class 4: 1.0000
+2026-02-09 16:44:13,325 - This is round 62, the accuracy of class 5: 1.0000
+2026-02-09 16:44:13,325 - This is round 62, the accuracy of class 6: 0.9780
+2026-02-09 16:45:04,064 - epoch 63: Train_loss: 0.147761, Test_loss: 3.529533, Train_OA: 0.997848, Test_OA: 0.996857, Test_AA: 0.991044, Kappa:1.00
+2026-02-09 16:45:04,064 - This is round 63, the accuracy of class 1: 1.0000
+2026-02-09 16:45:04,064 - This is round 63, the accuracy of class 2: 0.9931
+2026-02-09 16:45:04,065 - This is round 63, the accuracy of class 3: 0.9688
+2026-02-09 16:45:04,065 - This is round 63, the accuracy of class 4: 1.0000
+2026-02-09 16:45:04,065 - This is round 63, the accuracy of class 5: 0.9986
+2026-02-09 16:45:04,065 - This is round 63, the accuracy of class 6: 0.9858
+2026-02-09 16:45:54,688 - epoch 64: Train_loss: 0.240986, Test_loss: 3.605636, Train_OA: 0.998510, Test_OA: 0.997353, Test_AA: 0.991282, Kappa:1.00
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 1: 1.0000
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 2: 0.9931
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 3: 0.9688
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 4: 1.0000
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 5: 1.0000
+2026-02-09 16:45:54,688 - This is round 64, the accuracy of class 6: 0.9858
+2026-02-09 16:46:45,651 - epoch 65: Train_loss: 0.224413, Test_loss: 3.598651, Train_OA: 0.998345, Test_OA: 0.997519, Test_AA: 0.990127, Kappa:1.00
+2026-02-09 16:46:45,651 - This is round 65, the accuracy of class 1: 0.9988
+2026-02-09 16:46:45,651 - This is round 65, the accuracy of class 2: 0.9931
+2026-02-09 16:46:45,651 - This is round 65, the accuracy of class 3: 0.9583
+2026-02-09 16:46:45,651 - This is round 65, the accuracy of class 4: 1.0000
+2026-02-09 16:46:45,652 - This is round 65, the accuracy of class 5: 1.0000
+2026-02-09 16:46:45,652 - This is round 65, the accuracy of class 6: 0.9906
+2026-02-09 16:47:36,357 - epoch 66: Train_loss: 0.130754, Test_loss: 3.716722, Train_OA: 0.997724, Test_OA: 0.998180, Test_AA: 0.992802, Kappa:1.00
+2026-02-09 16:47:36,358 - This is round 66, the accuracy of class 1: 1.0000
+2026-02-09 16:47:36,358 - This is round 66, the accuracy of class 2: 0.9948
+2026-02-09 16:47:36,358 - This is round 66, the accuracy of class 3: 0.9688
+2026-02-09 16:47:36,358 - This is round 66, the accuracy of class 4: 1.0000
+2026-02-09 16:47:36,359 - This is round 66, the accuracy of class 5: 0.9995
+2026-02-09 16:47:36,359 - This is round 66, the accuracy of class 6: 0.9937
+2026-02-09 16:48:27,048 - epoch 67: Train_loss: 0.134908, Test_loss: 3.355743, Train_OA: 0.998428, Test_OA: 0.998015, Test_AA: 0.990858, Kappa:1.00
+2026-02-09 16:48:27,048 - This is round 67, the accuracy of class 1: 1.0000
+2026-02-09 16:48:27,048 - This is round 67, the accuracy of class 2: 0.9931
+2026-02-09 16:48:27,048 - This is round 67, the accuracy of class 3: 0.9583
+2026-02-09 16:48:27,048 - This is round 67, the accuracy of class 4: 1.0000
+2026-02-09 16:48:27,048 - This is round 67, the accuracy of class 5: 1.0000
+2026-02-09 16:48:27,049 - This is round 67, the accuracy of class 6: 0.9937
+2026-02-09 16:49:17,919 - epoch 68: Train_loss: 0.193927, Test_loss: 3.354159, Train_OA: 0.998262, Test_OA: 0.997849, Test_AA: 0.993567, Kappa:1.00
+2026-02-09 16:49:17,919 - This is round 68, the accuracy of class 1: 1.0000
+2026-02-09 16:49:17,920 - This is round 68, the accuracy of class 2: 0.9948
+2026-02-09 16:49:17,920 - This is round 68, the accuracy of class 3: 0.9792
+2026-02-09 16:49:17,920 - This is round 68, the accuracy of class 4: 1.0000
+2026-02-09 16:49:17,920 - This is round 68, the accuracy of class 5: 1.0000
+2026-02-09 16:49:17,920 - This is round 68, the accuracy of class 6: 0.9874
+2026-02-09 16:50:08,554 - epoch 69: Train_loss: 0.181121, Test_loss: 3.592877, Train_OA: 0.998800, Test_OA: 0.997188, Test_AA: 0.989522, Kappa:1.00
+2026-02-09 16:50:08,554 - This is round 69, the accuracy of class 1: 1.0000
+2026-02-09 16:50:08,554 - This is round 69, the accuracy of class 2: 0.9914
+2026-02-09 16:50:08,554 - This is round 69, the accuracy of class 3: 0.9583
+2026-02-09 16:50:08,554 - This is round 69, the accuracy of class 4: 1.0000
+2026-02-09 16:50:08,554 - This is round 69, the accuracy of class 5: 1.0000
+2026-02-09 16:50:08,555 - This is round 69, the accuracy of class 6: 0.9874
+2026-02-09 16:50:59,593 - epoch 70: Train_loss: 0.141839, Test_loss: 3.105925, Train_OA: 0.998386, Test_OA: 0.995534, Test_AA: 0.985535, Kappa:0.99
+2026-02-09 16:50:59,594 - This is round 70, the accuracy of class 1: 0.9975
+2026-02-09 16:50:59,594 - This is round 70, the accuracy of class 2: 0.9914
+2026-02-09 16:50:59,594 - This is round 70, the accuracy of class 3: 0.9479
+2026-02-09 16:50:59,594 - This is round 70, the accuracy of class 4: 1.0000
+2026-02-09 16:50:59,594 - This is round 70, the accuracy of class 5: 1.0000
+2026-02-09 16:50:59,595 - This is round 70, the accuracy of class 6: 0.9764
+2026-02-09 16:51:50,101 - epoch 71: Train_loss: 0.219045, Test_loss: 3.509852, Train_OA: 0.998345, Test_OA: 0.996361, Test_AA: 0.988314, Kappa:1.00
+2026-02-09 16:51:50,101 - This is round 71, the accuracy of class 1: 0.9988
+2026-02-09 16:51:50,101 - This is round 71, the accuracy of class 2: 0.9948
+2026-02-09 16:51:50,101 - This is round 71, the accuracy of class 3: 0.9583
+2026-02-09 16:51:50,101 - This is round 71, the accuracy of class 4: 1.0000
+2026-02-09 16:51:50,101 - This is round 71, the accuracy of class 5: 1.0000
+2026-02-09 16:51:50,102 - This is round 71, the accuracy of class 6: 0.9780
+2026-02-09 16:52:40,483 - epoch 72: Train_loss: 0.165505, Test_loss: 3.335153, Train_OA: 0.998552, Test_OA: 0.997353, Test_AA: 0.994188, Kappa:1.00
+2026-02-09 16:52:40,483 - This is round 72, the accuracy of class 1: 0.9988
+2026-02-09 16:52:40,483 - This is round 72, the accuracy of class 2: 0.9862
+2026-02-09 16:52:40,483 - This is round 72, the accuracy of class 3: 0.9896
+2026-02-09 16:52:40,483 - This is round 72, the accuracy of class 4: 1.0000
+2026-02-09 16:52:40,484 - This is round 72, the accuracy of class 5: 1.0000
+2026-02-09 16:52:40,484 - This is round 72, the accuracy of class 6: 0.9906
+2026-02-09 16:53:30,998 - epoch 73: Train_loss: 0.181593, Test_loss: 3.327085, Train_OA: 0.998552, Test_OA: 0.997022, Test_AA: 0.990820, Kappa:1.00
+2026-02-09 16:53:30,998 - This is round 73, the accuracy of class 1: 0.9975
+2026-02-09 16:53:30,998 - This is round 73, the accuracy of class 2: 0.9897
+2026-02-09 16:53:30,999 - This is round 73, the accuracy of class 3: 0.9688
+2026-02-09 16:53:30,999 - This is round 73, the accuracy of class 4: 1.0000
+2026-02-09 16:53:30,999 - This is round 73, the accuracy of class 5: 1.0000
+2026-02-09 16:53:30,999 - This is round 73, the accuracy of class 6: 0.9890
+2026-02-09 16:54:21,556 - epoch 74: Train_loss: 0.158107, Test_loss: 3.166755, Train_OA: 0.998138, Test_OA: 0.997849, Test_AA: 0.992021, Kappa:1.00
+2026-02-09 16:54:21,556 - This is round 74, the accuracy of class 1: 1.0000
+2026-02-09 16:54:21,556 - This is round 74, the accuracy of class 2: 0.9897
+2026-02-09 16:54:21,556 - This is round 74, the accuracy of class 3: 0.9688
+2026-02-09 16:54:21,556 - This is round 74, the accuracy of class 4: 1.0000
+2026-02-09 16:54:21,556 - This is round 74, the accuracy of class 5: 1.0000
+2026-02-09 16:54:21,557 - This is round 74, the accuracy of class 6: 0.9937
+2026-02-09 16:55:11,850 - epoch 75: Train_loss: 0.154349, Test_loss: 3.701252, Train_OA: 0.998428, Test_OA: 0.996857, Test_AA: 0.993840, Kappa:1.00
+2026-02-09 16:55:11,851 - This is round 75, the accuracy of class 1: 0.9988
+2026-02-09 16:55:11,851 - This is round 75, the accuracy of class 2: 0.9931
+2026-02-09 16:55:11,851 - This is round 75, the accuracy of class 3: 0.9896
+2026-02-09 16:55:11,852 - This is round 75, the accuracy of class 4: 0.9989
+2026-02-09 16:55:11,852 - This is round 75, the accuracy of class 5: 1.0000
+2026-02-09 16:55:11,852 - This is round 75, the accuracy of class 6: 0.9827
+2026-02-09 16:56:02,290 - epoch 76: Train_loss: 0.157926, Test_loss: 3.240572, Train_OA: 0.998179, Test_OA: 0.997519, Test_AA: 0.991471, Kappa:1.00
+2026-02-09 16:56:02,290 - This is round 76, the accuracy of class 1: 1.0000
+2026-02-09 16:56:02,290 - This is round 76, the accuracy of class 2: 0.9880
+2026-02-09 16:56:02,290 - This is round 76, the accuracy of class 3: 0.9688
+2026-02-09 16:56:02,291 - This is round 76, the accuracy of class 4: 1.0000
+2026-02-09 16:56:02,291 - This is round 76, the accuracy of class 5: 1.0000
+2026-02-09 16:56:02,291 - This is round 76, the accuracy of class 6: 0.9921
+2026-02-09 16:56:53,491 - epoch 77: Train_loss: 0.136193, Test_loss: 3.602489, Train_OA: 0.998304, Test_OA: 0.997022, Test_AA: 0.990916, Kappa:1.00
+2026-02-09 16:56:53,491 - This is round 77, the accuracy of class 1: 1.0000
+2026-02-09 16:56:53,491 - This is round 77, the accuracy of class 2: 0.9914
+2026-02-09 16:56:53,491 - This is round 77, the accuracy of class 3: 0.9688
+2026-02-09 16:56:53,491 - This is round 77, the accuracy of class 4: 1.0000
+2026-02-09 16:56:53,492 - This is round 77, the accuracy of class 5: 0.9995
+2026-02-09 16:56:53,492 - This is round 77, the accuracy of class 6: 0.9858
+2026-02-09 16:57:43,840 - epoch 78: Train_loss: 0.133414, Test_loss: 3.513210, Train_OA: 0.998179, Test_OA: 0.996195, Test_AA: 0.989225, Kappa:0.99
+2026-02-09 16:57:43,840 - This is round 78, the accuracy of class 1: 1.0000
+2026-02-09 16:57:43,840 - This is round 78, the accuracy of class 2: 0.9776
+2026-02-09 16:57:43,840 - This is round 78, the accuracy of class 3: 0.9688
+2026-02-09 16:57:43,841 - This is round 78, the accuracy of class 4: 1.0000
+2026-02-09 16:57:43,841 - This is round 78, the accuracy of class 5: 1.0000
+2026-02-09 16:57:43,841 - This is round 78, the accuracy of class 6: 0.9890
+2026-02-09 16:58:33,996 - epoch 79: Train_loss: 0.165540, Test_loss: 3.054411, Train_OA: 0.998428, Test_OA: 0.996857, Test_AA: 0.990605, Kappa:1.00
+2026-02-09 16:58:33,996 - This is round 79, the accuracy of class 1: 1.0000
+2026-02-09 16:58:33,997 - This is round 79, the accuracy of class 2: 0.9880
+2026-02-09 16:58:33,997 - This is round 79, the accuracy of class 3: 0.9688
+2026-02-09 16:58:33,997 - This is round 79, the accuracy of class 4: 1.0000
+2026-02-09 16:58:33,997 - This is round 79, the accuracy of class 5: 0.9995
+2026-02-09 16:58:33,997 - This is round 79, the accuracy of class 6: 0.9874
+2026-02-09 16:59:24,253 - epoch 80: Train_loss: 0.237438, Test_loss: 3.610640, Train_OA: 0.998469, Test_OA: 0.998180, Test_AA: 0.995725, Kappa:1.00
+2026-02-09 16:59:24,253 - This is round 80, the accuracy of class 1: 1.0000
+2026-02-09 16:59:24,253 - This is round 80, the accuracy of class 2: 0.9931
+2026-02-09 16:59:24,253 - This is round 80, the accuracy of class 3: 0.9896
+2026-02-09 16:59:24,254 - This is round 80, the accuracy of class 4: 1.0000
+2026-02-09 16:59:24,254 - This is round 80, the accuracy of class 5: 0.9995
+2026-02-09 16:59:24,254 - This is round 80, the accuracy of class 6: 0.9921
+2026-02-09 17:00:14,592 - epoch 81: Train_loss: 0.188280, Test_loss: 2.756711, Train_OA: 0.998221, Test_OA: 0.997684, Test_AA: 0.991661, Kappa:1.00
+2026-02-09 17:00:14,593 - This is round 81, the accuracy of class 1: 1.0000
+2026-02-09 17:00:14,593 - This is round 81, the accuracy of class 2: 0.9828
+2026-02-09 17:00:14,593 - This is round 81, the accuracy of class 3: 0.9688
+2026-02-09 17:00:14,594 - This is round 81, the accuracy of class 4: 1.0000
+2026-02-09 17:00:14,594 - This is round 81, the accuracy of class 5: 1.0000
+2026-02-09 17:00:14,594 - This is round 81, the accuracy of class 6: 0.9984
+2026-02-09 17:01:05,027 - epoch 82: Train_loss: 0.166833, Test_loss: 3.358094, Train_OA: 0.997973, Test_OA: 0.997519, Test_AA: 0.994370, Kappa:1.00
+2026-02-09 17:01:05,028 - This is round 82, the accuracy of class 1: 1.0000
+2026-02-09 17:01:05,028 - This is round 82, the accuracy of class 2: 0.9845
+2026-02-09 17:01:05,028 - This is round 82, the accuracy of class 3: 0.9896
+2026-02-09 17:01:05,028 - This is round 82, the accuracy of class 4: 1.0000
+2026-02-09 17:01:05,028 - This is round 82, the accuracy of class 5: 1.0000
+2026-02-09 17:01:05,029 - This is round 82, the accuracy of class 6: 0.9921
+2026-02-09 17:01:55,183 - epoch 83: Train_loss: 0.127263, Test_loss: 3.279532, Train_OA: 0.998676, Test_OA: 0.998180, Test_AA: 0.994092, Kappa:1.00
+2026-02-09 17:01:55,183 - This is round 83, the accuracy of class 1: 1.0000
+2026-02-09 17:01:55,183 - This is round 83, the accuracy of class 2: 0.9948
+2026-02-09 17:01:55,184 - This is round 83, the accuracy of class 3: 0.9792
+2026-02-09 17:01:55,184 - This is round 83, the accuracy of class 4: 1.0000
+2026-02-09 17:01:55,184 - This is round 83, the accuracy of class 5: 1.0000
+2026-02-09 17:01:55,184 - This is round 83, the accuracy of class 6: 0.9906
+2026-02-09 17:02:46,065 - epoch 84: Train_loss: 0.170473, Test_loss: 3.271331, Train_OA: 0.998469, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 17:02:46,065 - This is round 84, the accuracy of class 1: 1.0000
+2026-02-09 17:02:46,065 - This is round 84, the accuracy of class 2: 0.9948
+2026-02-09 17:02:46,066 - This is round 84, the accuracy of class 3: 0.9688
+2026-02-09 17:02:46,066 - This is round 84, the accuracy of class 4: 1.0000
+2026-02-09 17:02:46,066 - This is round 84, the accuracy of class 5: 1.0000
+2026-02-09 17:02:46,066 - This is round 84, the accuracy of class 6: 0.9921
+2026-02-09 17:03:36,478 - epoch 85: Train_loss: 0.129854, Test_loss: 3.500618, Train_OA: 0.998304, Test_OA: 0.996030, Test_AA: 0.990339, Kappa:0.99
+2026-02-09 17:03:36,478 - This is round 85, the accuracy of class 1: 1.0000
+2026-02-09 17:03:36,478 - This is round 85, the accuracy of class 2: 0.9707
+2026-02-09 17:03:36,478 - This is round 85, the accuracy of class 3: 0.9792
+2026-02-09 17:03:36,478 - This is round 85, the accuracy of class 4: 1.0000
+2026-02-09 17:03:36,479 - This is round 85, the accuracy of class 5: 1.0000
+2026-02-09 17:03:36,479 - This is round 85, the accuracy of class 6: 0.9921
+2026-02-09 17:04:26,819 - epoch 86: Train_loss: 0.187645, Test_loss: 3.482252, Train_OA: 0.998552, Test_OA: 0.995534, Test_AA: 0.983638, Kappa:0.99
+2026-02-09 17:04:26,819 - This is round 86, the accuracy of class 1: 0.9975
+2026-02-09 17:04:26,819 - This is round 86, the accuracy of class 2: 0.9880
+2026-02-09 17:04:26,819 - This is round 86, the accuracy of class 3: 0.9271
+2026-02-09 17:04:26,820 - This is round 86, the accuracy of class 4: 1.0000
+2026-02-09 17:04:26,820 - This is round 86, the accuracy of class 5: 0.9971
+2026-02-09 17:04:26,820 - This is round 86, the accuracy of class 6: 0.9921
+2026-02-09 17:05:17,444 - epoch 87: Train_loss: 0.131212, Test_loss: 3.412870, Train_OA: 0.998552, Test_OA: 0.997849, Test_AA: 0.992411, Kappa:1.00
+2026-02-09 17:05:17,445 - This is round 87, the accuracy of class 1: 1.0000
+2026-02-09 17:05:17,445 - This is round 87, the accuracy of class 2: 0.9914
+2026-02-09 17:05:17,445 - This is round 87, the accuracy of class 3: 0.9688
+2026-02-09 17:05:17,445 - This is round 87, the accuracy of class 4: 1.0000
+2026-02-09 17:05:17,446 - This is round 87, the accuracy of class 5: 0.9990
+2026-02-09 17:05:17,446 - This is round 87, the accuracy of class 6: 0.9953
+2026-02-09 17:06:07,723 - epoch 88: Train_loss: 0.117925, Test_loss: 3.299957, Train_OA: 0.997973, Test_OA: 0.997849, Test_AA: 0.990596, Kappa:1.00
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 1: 1.0000
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 2: 0.9931
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 3: 0.9583
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 4: 1.0000
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 5: 1.0000
+2026-02-09 17:06:07,724 - This is round 88, the accuracy of class 6: 0.9921
+2026-02-09 17:06:57,905 - epoch 89: Train_loss: 0.123148, Test_loss: 3.188972, Train_OA: 0.998428, Test_OA: 0.997519, Test_AA: 0.990095, Kappa:1.00
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 1: 1.0000
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 2: 0.9948
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 3: 0.9583
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 4: 1.0000
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 5: 1.0000
+2026-02-09 17:06:57,906 - This is round 89, the accuracy of class 6: 0.9874
+2026-02-09 17:07:47,669 - epoch 90: Train_loss: 0.110521, Test_loss: 3.629214, Train_OA: 0.998717, Test_OA: 0.998015, Test_AA: 0.990907, Kappa:1.00
+2026-02-09 17:07:47,669 - This is round 90, the accuracy of class 1: 1.0000
+2026-02-09 17:07:47,670 - This is round 90, the accuracy of class 2: 0.9966
+2026-02-09 17:07:47,670 - This is round 90, the accuracy of class 3: 0.9583
+2026-02-09 17:07:47,670 - This is round 90, the accuracy of class 4: 1.0000
+2026-02-09 17:07:47,670 - This is round 90, the accuracy of class 5: 1.0000
+2026-02-09 17:07:47,670 - This is round 90, the accuracy of class 6: 0.9906
+2026-02-09 17:08:37,841 - epoch 91: Train_loss: 0.341226, Test_loss: 3.692055, Train_OA: 0.998883, Test_OA: 0.997519, Test_AA: 0.993067, Kappa:1.00
+2026-02-09 17:08:37,842 - This is round 91, the accuracy of class 1: 1.0000
+2026-02-09 17:08:37,842 - This is round 91, the accuracy of class 2: 0.9966
+2026-02-09 17:08:37,842 - This is round 91, the accuracy of class 3: 0.9792
+2026-02-09 17:08:37,842 - This is round 91, the accuracy of class 4: 1.0000
+2026-02-09 17:08:37,842 - This is round 91, the accuracy of class 5: 1.0000
+2026-02-09 17:08:37,843 - This is round 91, the accuracy of class 6: 0.9827
+2026-02-09 17:09:27,522 - epoch 92: Train_loss: 0.124905, Test_loss: 4.095275, Train_OA: 0.998924, Test_OA: 0.998180, Test_AA: 0.995566, Kappa:1.00
+2026-02-09 17:09:27,522 - This is round 92, the accuracy of class 1: 1.0000
+2026-02-09 17:09:27,522 - This is round 92, the accuracy of class 2: 0.9948
+2026-02-09 17:09:27,523 - This is round 92, the accuracy of class 3: 0.9896
+2026-02-09 17:09:27,523 - This is round 92, the accuracy of class 4: 1.0000
+2026-02-09 17:09:27,523 - This is round 92, the accuracy of class 5: 1.0000
+2026-02-09 17:09:27,523 - This is round 92, the accuracy of class 6: 0.9890
+2026-02-09 17:10:17,616 - epoch 93: Train_loss: 0.143255, Test_loss: 3.640521, Train_OA: 0.998966, Test_OA: 0.998180, Test_AA: 0.992643, Kappa:1.00
+2026-02-09 17:10:17,616 - This is round 93, the accuracy of class 1: 1.0000
+2026-02-09 17:10:17,616 - This is round 93, the accuracy of class 2: 0.9966
+2026-02-09 17:10:17,616 - This is round 93, the accuracy of class 3: 0.9688
+2026-02-09 17:10:17,617 - This is round 93, the accuracy of class 4: 1.0000
+2026-02-09 17:10:17,617 - This is round 93, the accuracy of class 5: 1.0000
+2026-02-09 17:10:17,617 - This is round 93, the accuracy of class 6: 0.9906
+2026-02-09 17:11:08,155 - epoch 94: Train_loss: 0.165279, Test_loss: 3.618848, Train_OA: 0.999048, Test_OA: 0.996526, Test_AA: 0.988398, Kappa:1.00
+2026-02-09 17:11:08,155 - This is round 94, the accuracy of class 1: 1.0000
+2026-02-09 17:11:08,156 - This is round 94, the accuracy of class 2: 0.9862
+2026-02-09 17:11:08,156 - This is round 94, the accuracy of class 3: 0.9583
+2026-02-09 17:11:08,156 - This is round 94, the accuracy of class 4: 1.0000
+2026-02-09 17:11:08,156 - This is round 94, the accuracy of class 5: 1.0000
+2026-02-09 17:11:08,156 - This is round 94, the accuracy of class 6: 0.9858
+2026-02-09 17:11:58,164 - epoch 95: Train_loss: 0.108551, Test_loss: 3.687326, Train_OA: 0.999007, Test_OA: 0.997353, Test_AA: 0.988335, Kappa:1.00
+2026-02-09 17:11:58,164 - This is round 95, the accuracy of class 1: 1.0000
+2026-02-09 17:11:58,164 - This is round 95, the accuracy of class 2: 0.9931
+2026-02-09 17:11:58,164 - This is round 95, the accuracy of class 3: 0.9479
+2026-02-09 17:11:58,164 - This is round 95, the accuracy of class 4: 1.0000
+2026-02-09 17:11:58,165 - This is round 95, the accuracy of class 5: 1.0000
+2026-02-09 17:11:58,165 - This is round 95, the accuracy of class 6: 0.9890
+2026-02-09 17:12:48,423 - epoch 96: Train_loss: 0.120189, Test_loss: 3.656418, Train_OA: 0.999048, Test_OA: 0.997849, Test_AA: 0.990828, Kappa:1.00
+2026-02-09 17:12:48,423 - This is round 96, the accuracy of class 1: 1.0000
+2026-02-09 17:12:48,424 - This is round 96, the accuracy of class 2: 0.9966
+2026-02-09 17:12:48,424 - This is round 96, the accuracy of class 3: 0.9583
+2026-02-09 17:12:48,424 - This is round 96, the accuracy of class 4: 1.0000
+2026-02-09 17:12:48,424 - This is round 96, the accuracy of class 5: 0.9995
+2026-02-09 17:12:48,424 - This is round 96, the accuracy of class 6: 0.9906
+2026-02-09 17:13:38,544 - epoch 97: Train_loss: 0.201641, Test_loss: 3.848105, Train_OA: 0.999090, Test_OA: 0.996195, Test_AA: 0.989494, Kappa:0.99
+2026-02-09 17:13:38,544 - This is round 97, the accuracy of class 1: 1.0000
+2026-02-09 17:13:38,544 - This is round 97, the accuracy of class 2: 0.9966
+2026-02-09 17:13:38,544 - This is round 97, the accuracy of class 3: 0.9688
+2026-02-09 17:13:38,545 - This is round 97, the accuracy of class 4: 1.0000
+2026-02-09 17:13:38,545 - This is round 97, the accuracy of class 5: 1.0000
+2026-02-09 17:13:38,545 - This is round 97, the accuracy of class 6: 0.9717
+2026-02-09 17:14:29,164 - epoch 98: Train_loss: 0.113675, Test_loss: 3.362741, Train_OA: 0.998966, Test_OA: 0.995534, Test_AA: 0.988395, Kappa:0.99
+2026-02-09 17:14:29,164 - This is round 98, the accuracy of class 1: 1.0000
+2026-02-09 17:14:29,164 - This is round 98, the accuracy of class 2: 0.9931
+2026-02-09 17:14:29,164 - This is round 98, the accuracy of class 3: 0.9688
+2026-02-09 17:14:29,164 - This is round 98, the accuracy of class 4: 1.0000
+2026-02-09 17:14:29,164 - This is round 98, the accuracy of class 5: 1.0000
+2026-02-09 17:14:29,165 - This is round 98, the accuracy of class 6: 0.9685
+2026-02-09 17:15:22,198 - epoch 99: Train_loss: 0.125759, Test_loss: 3.862559, Train_OA: 0.998883, Test_OA: 0.997684, Test_AA: 0.992039, Kappa:1.00
+2026-02-09 17:15:22,199 - This is round 99, the accuracy of class 1: 1.0000
+2026-02-09 17:15:22,199 - This is round 99, the accuracy of class 2: 0.9966
+2026-02-09 17:15:22,199 - This is round 99, the accuracy of class 3: 0.9688
+2026-02-09 17:15:22,199 - This is round 99, the accuracy of class 4: 1.0000
+2026-02-09 17:15:22,199 - This is round 99, the accuracy of class 5: 0.9995
+2026-02-09 17:15:22,200 - This is round 99, the accuracy of class 6: 0.9874
+2026-02-09 17:16:20,719 - epoch 100: Train_loss: 0.127135, Test_loss: 3.638211, Train_OA: 0.999090, Test_OA: 0.997188, Test_AA: 0.989570, Kappa:1.00
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 1: 1.0000
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 2: 0.9948
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 3: 0.9583
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 4: 1.0000
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 5: 1.0000
+2026-02-09 17:16:20,720 - This is round 100, the accuracy of class 6: 0.9843
+2026-02-09 17:17:13,653 - epoch 101: Train_loss: 0.118824, Test_loss: 3.660079, Train_OA: 0.998841, Test_OA: 0.997353, Test_AA: 0.991331, Kappa:1.00
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 1: 1.0000
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 2: 0.9966
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 3: 0.9688
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 4: 1.0000
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 5: 1.0000
+2026-02-09 17:17:13,654 - This is round 101, the accuracy of class 6: 0.9827
+2026-02-09 17:18:04,244 - epoch 102: Train_loss: 0.116513, Test_loss: 3.646133, Train_OA: 0.998924, Test_OA: 0.998015, Test_AA: 0.993805, Kappa:1.00
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 1: 1.0000
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 2: 0.9931
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 3: 0.9792
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 4: 1.0000
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 5: 1.0000
+2026-02-09 17:18:04,245 - This is round 102, the accuracy of class 6: 0.9906
+2026-02-09 17:18:54,801 - epoch 103: Train_loss: 0.121714, Test_loss: 3.793714, Train_OA: 0.999297, Test_OA: 0.997188, Test_AA: 0.986806, Kappa:1.00
+2026-02-09 17:18:54,801 - This is round 103, the accuracy of class 1: 1.0000
+2026-02-09 17:18:54,802 - This is round 103, the accuracy of class 2: 0.9948
+2026-02-09 17:18:54,802 - This is round 103, the accuracy of class 3: 0.9375
+2026-02-09 17:18:54,802 - This is round 103, the accuracy of class 4: 1.0000
+2026-02-09 17:18:54,802 - This is round 103, the accuracy of class 5: 0.9995
+2026-02-09 17:18:54,803 - This is round 103, the accuracy of class 6: 0.9890
+2026-02-09 17:19:45,586 - epoch 104: Train_loss: 0.135504, Test_loss: 3.632741, Train_OA: 0.998966, Test_OA: 0.998346, Test_AA: 0.992881, Kappa:1.00
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 1: 1.0000
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 2: 0.9948
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 3: 0.9688
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 4: 1.0000
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 5: 1.0000
+2026-02-09 17:19:45,587 - This is round 104, the accuracy of class 6: 0.9937
+2026-02-09 17:20:36,872 - epoch 105: Train_loss: 0.114053, Test_loss: 3.679045, Train_OA: 0.998841, Test_OA: 0.997353, Test_AA: 0.989735, Kappa:1.00
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 1: 1.0000
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 2: 0.9880
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 3: 0.9583
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 4: 1.0000
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 5: 1.0000
+2026-02-09 17:20:36,872 - This is round 105, the accuracy of class 6: 0.9921
+2026-02-09 17:21:27,917 - epoch 106: Train_loss: 0.156663, Test_loss: 3.704091, Train_OA: 0.998717, Test_OA: 0.997188, Test_AA: 0.989448, Kappa:1.00
+2026-02-09 17:21:27,918 - This is round 106, the accuracy of class 1: 1.0000
+2026-02-09 17:21:27,918 - This is round 106, the accuracy of class 2: 0.9862
+2026-02-09 17:21:27,918 - This is round 106, the accuracy of class 3: 0.9583
+2026-02-09 17:21:27,918 - This is round 106, the accuracy of class 4: 1.0000
+2026-02-09 17:21:27,918 - This is round 106, the accuracy of class 5: 1.0000
+2026-02-09 17:21:27,919 - This is round 106, the accuracy of class 6: 0.9921
+2026-02-09 17:22:18,792 - epoch 107: Train_loss: 0.112278, Test_loss: 3.774274, Train_OA: 0.998841, Test_OA: 0.998015, Test_AA: 0.992381, Kappa:1.00
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 1: 1.0000
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 2: 0.9966
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 3: 0.9688
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 4: 1.0000
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 5: 1.0000
+2026-02-09 17:22:18,793 - This is round 107, the accuracy of class 6: 0.9890
+2026-02-09 17:23:09,250 - epoch 108: Train_loss: 0.118593, Test_loss: 3.505739, Train_OA: 0.998924, Test_OA: 0.997188, Test_AA: 0.989546, Kappa:1.00
+2026-02-09 17:23:09,250 - This is round 108, the accuracy of class 1: 1.0000
+2026-02-09 17:23:09,251 - This is round 108, the accuracy of class 2: 0.9931
+2026-02-09 17:23:09,251 - This is round 108, the accuracy of class 3: 0.9583
+2026-02-09 17:23:09,251 - This is round 108, the accuracy of class 4: 1.0000
+2026-02-09 17:23:09,252 - This is round 108, the accuracy of class 5: 1.0000
+2026-02-09 17:23:09,252 - This is round 108, the accuracy of class 6: 0.9858
+2026-02-09 17:24:00,016 - epoch 109: Train_loss: 0.121591, Test_loss: 3.710404, Train_OA: 0.999007, Test_OA: 0.997022, Test_AA: 0.987834, Kappa:1.00
+2026-02-09 17:24:00,017 - This is round 109, the accuracy of class 1: 1.0000
+2026-02-09 17:24:00,017 - This is round 109, the accuracy of class 2: 0.9948
+2026-02-09 17:24:00,018 - This is round 109, the accuracy of class 3: 0.9479
+2026-02-09 17:24:00,018 - This is round 109, the accuracy of class 4: 1.0000
+2026-02-09 17:24:00,018 - This is round 109, the accuracy of class 5: 1.0000
+2026-02-09 17:24:00,018 - This is round 109, the accuracy of class 6: 0.9843
+2026-02-09 17:24:50,666 - epoch 110: Train_loss: 0.132461, Test_loss: 3.705144, Train_OA: 0.999048, Test_OA: 0.996691, Test_AA: 0.990281, Kappa:1.00
+2026-02-09 17:24:50,667 - This is round 110, the accuracy of class 1: 1.0000
+2026-02-09 17:24:50,667 - This is round 110, the accuracy of class 2: 0.9966
+2026-02-09 17:24:50,667 - This is round 110, the accuracy of class 3: 0.9688
+2026-02-09 17:24:50,667 - This is round 110, the accuracy of class 4: 1.0000
+2026-02-09 17:24:50,667 - This is round 110, the accuracy of class 5: 1.0000
+2026-02-09 17:24:50,668 - This is round 110, the accuracy of class 6: 0.9764
+2026-02-09 17:25:41,044 - epoch 111: Train_loss: 0.211669, Test_loss: 3.458752, Train_OA: 0.998924, Test_OA: 0.997684, Test_AA: 0.992014, Kappa:1.00
+2026-02-09 17:25:41,044 - This is round 111, the accuracy of class 1: 1.0000
+2026-02-09 17:25:41,045 - This is round 111, the accuracy of class 2: 0.9948
+2026-02-09 17:25:41,045 - This is round 111, the accuracy of class 3: 0.9688
+2026-02-09 17:25:41,045 - This is round 111, the accuracy of class 4: 1.0000
+2026-02-09 17:25:41,045 - This is round 111, the accuracy of class 5: 0.9995
+2026-02-09 17:25:41,045 - This is round 111, the accuracy of class 6: 0.9890
+2026-02-09 17:26:31,537 - epoch 112: Train_loss: 0.159112, Test_loss: 3.648514, Train_OA: 0.999255, Test_OA: 0.996691, Test_AA: 0.986019, Kappa:1.00
+2026-02-09 17:26:31,537 - This is round 112, the accuracy of class 1: 1.0000
+2026-02-09 17:26:31,538 - This is round 112, the accuracy of class 2: 0.9948
+2026-02-09 17:26:31,538 - This is round 112, the accuracy of class 3: 0.9375
+2026-02-09 17:26:31,538 - This is round 112, the accuracy of class 4: 1.0000
+2026-02-09 17:26:31,538 - This is round 112, the accuracy of class 5: 0.9995
+2026-02-09 17:26:31,538 - This is round 112, the accuracy of class 6: 0.9843
+2026-02-09 17:27:22,149 - epoch 113: Train_loss: 0.112461, Test_loss: 4.132048, Train_OA: 0.998966, Test_OA: 0.998015, Test_AA: 0.990883, Kappa:1.00
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 1: 1.0000
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 2: 0.9948
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 3: 0.9583
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 4: 1.0000
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 5: 1.0000
+2026-02-09 17:27:22,150 - This is round 113, the accuracy of class 6: 0.9921
+2026-02-09 17:28:12,829 - epoch 114: Train_loss: 0.149600, Test_loss: 3.626285, Train_OA: 0.998883, Test_OA: 0.998180, Test_AA: 0.991145, Kappa:1.00
+2026-02-09 17:28:12,830 - This is round 114, the accuracy of class 1: 1.0000
+2026-02-09 17:28:12,830 - This is round 114, the accuracy of class 2: 0.9948
+2026-02-09 17:28:12,830 - This is round 114, the accuracy of class 3: 0.9583
+2026-02-09 17:28:12,830 - This is round 114, the accuracy of class 4: 1.0000
+2026-02-09 17:28:12,831 - This is round 114, the accuracy of class 5: 1.0000
+2026-02-09 17:28:12,831 - This is round 114, the accuracy of class 6: 0.9937
+2026-02-09 17:29:03,057 - epoch 115: Train_loss: 0.110375, Test_loss: 3.598314, Train_OA: 0.998635, Test_OA: 0.997353, Test_AA: 0.986861, Kappa:1.00
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 1: 1.0000
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 2: 0.9931
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 3: 0.9375
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 4: 1.0000
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 5: 1.0000
+2026-02-09 17:29:03,058 - This is round 115, the accuracy of class 6: 0.9906
+2026-02-09 17:29:53,241 - epoch 116: Train_loss: 0.158129, Test_loss: 3.742468, Train_OA: 0.999007, Test_OA: 0.998677, Test_AA: 0.993431, Kappa:1.00
+2026-02-09 17:29:53,242 - This is round 116, the accuracy of class 1: 1.0000
+2026-02-09 17:29:53,242 - This is round 116, the accuracy of class 2: 0.9966
+2026-02-09 17:29:53,242 - This is round 116, the accuracy of class 3: 0.9688
+2026-02-09 17:29:53,242 - This is round 116, the accuracy of class 4: 1.0000
+2026-02-09 17:29:53,242 - This is round 116, the accuracy of class 5: 1.0000
+2026-02-09 17:29:53,243 - This is round 116, the accuracy of class 6: 0.9953
+2026-02-09 17:30:43,707 - epoch 117: Train_loss: 0.105887, Test_loss: 3.481184, Train_OA: 0.998924, Test_OA: 0.996857, Test_AA: 0.987499, Kappa:1.00
+2026-02-09 17:30:43,707 - This is round 117, the accuracy of class 1: 1.0000
+2026-02-09 17:30:43,707 - This is round 117, the accuracy of class 2: 0.9897
+2026-02-09 17:30:43,708 - This is round 117, the accuracy of class 3: 0.9479
+2026-02-09 17:30:43,708 - This is round 117, the accuracy of class 4: 1.0000
+2026-02-09 17:30:43,708 - This is round 117, the accuracy of class 5: 1.0000
+2026-02-09 17:30:43,708 - This is round 117, the accuracy of class 6: 0.9874
+2026-02-09 17:31:34,208 - epoch 118: Train_loss: 0.102235, Test_loss: 3.585406, Train_OA: 0.998924, Test_OA: 0.998015, Test_AA: 0.990858, Kappa:1.00
+2026-02-09 17:31:34,208 - This is round 118, the accuracy of class 1: 1.0000
+2026-02-09 17:31:34,209 - This is round 118, the accuracy of class 2: 0.9931
+2026-02-09 17:31:34,209 - This is round 118, the accuracy of class 3: 0.9583
+2026-02-09 17:31:34,209 - This is round 118, the accuracy of class 4: 1.0000
+2026-02-09 17:31:34,209 - This is round 118, the accuracy of class 5: 1.0000
+2026-02-09 17:31:34,209 - This is round 118, the accuracy of class 6: 0.9937
+2026-02-09 17:32:24,589 - epoch 119: Train_loss: 0.218916, Test_loss: 4.139817, Train_OA: 0.999090, Test_OA: 0.997353, Test_AA: 0.988359, Kappa:1.00
+2026-02-09 17:32:24,589 - This is round 119, the accuracy of class 1: 1.0000
+2026-02-09 17:32:24,589 - This is round 119, the accuracy of class 2: 0.9948
+2026-02-09 17:32:24,590 - This is round 119, the accuracy of class 3: 0.9479
+2026-02-09 17:32:24,590 - This is round 119, the accuracy of class 4: 1.0000
+2026-02-09 17:32:24,590 - This is round 119, the accuracy of class 5: 1.0000
+2026-02-09 17:32:24,590 - This is round 119, the accuracy of class 6: 0.9874
+2026-02-09 17:33:14,506 - epoch 120: Train_loss: 0.092596, Test_loss: 3.861516, Train_OA: 0.999297, Test_OA: 0.998346, Test_AA: 0.992857, Kappa:1.00
+2026-02-09 17:33:14,506 - This is round 120, the accuracy of class 1: 1.0000
+2026-02-09 17:33:14,506 - This is round 120, the accuracy of class 2: 0.9931
+2026-02-09 17:33:14,507 - This is round 120, the accuracy of class 3: 0.9688
+2026-02-09 17:33:14,507 - This is round 120, the accuracy of class 4: 1.0000
+2026-02-09 17:33:14,507 - This is round 120, the accuracy of class 5: 1.0000
+2026-02-09 17:33:14,507 - This is round 120, the accuracy of class 6: 0.9953
+2026-02-09 17:34:04,512 - epoch 121: Train_loss: 0.141319, Test_loss: 4.083271, Train_OA: 0.999172, Test_OA: 0.997684, Test_AA: 0.987435, Kappa:1.00
+2026-02-09 17:34:04,513 - This is round 121, the accuracy of class 1: 1.0000
+2026-02-09 17:34:04,513 - This is round 121, the accuracy of class 2: 0.9966
+2026-02-09 17:34:04,513 - This is round 121, the accuracy of class 3: 0.9375
+2026-02-09 17:34:04,513 - This is round 121, the accuracy of class 4: 1.0000
+2026-02-09 17:34:04,513 - This is round 121, the accuracy of class 5: 1.0000
+2026-02-09 17:34:04,514 - This is round 121, the accuracy of class 6: 0.9906
+2026-02-09 17:34:54,807 - epoch 122: Train_loss: 0.097724, Test_loss: 3.950921, Train_OA: 0.999338, Test_OA: 0.998511, Test_AA: 0.993095, Kappa:1.00
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 1: 1.0000
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 2: 0.9914
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 3: 0.9688
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 4: 1.0000
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 5: 1.0000
+2026-02-09 17:34:54,808 - This is round 122, the accuracy of class 6: 0.9984
+2026-02-09 17:35:45,221 - epoch 123: Train_loss: 0.106496, Test_loss: 3.870445, Train_OA: 0.999131, Test_OA: 0.998677, Test_AA: 0.993431, Kappa:1.00
+2026-02-09 17:35:45,221 - This is round 123, the accuracy of class 1: 1.0000
+2026-02-09 17:35:45,222 - This is round 123, the accuracy of class 2: 0.9966
+2026-02-09 17:35:45,222 - This is round 123, the accuracy of class 3: 0.9688
+2026-02-09 17:35:45,222 - This is round 123, the accuracy of class 4: 1.0000
+2026-02-09 17:35:45,222 - This is round 123, the accuracy of class 5: 1.0000
+2026-02-09 17:35:45,222 - This is round 123, the accuracy of class 6: 0.9953
+2026-02-09 17:36:35,277 - epoch 124: Train_loss: 0.099289, Test_loss: 3.820091, Train_OA: 0.999379, Test_OA: 0.998015, Test_AA: 0.989409, Kappa:1.00
+2026-02-09 17:36:35,277 - This is round 124, the accuracy of class 1: 1.0000
+2026-02-09 17:36:35,277 - This is round 124, the accuracy of class 2: 0.9948
+2026-02-09 17:36:35,278 - This is round 124, the accuracy of class 3: 0.9479
+2026-02-09 17:36:35,278 - This is round 124, the accuracy of class 4: 1.0000
+2026-02-09 17:36:35,278 - This is round 124, the accuracy of class 5: 1.0000
+2026-02-09 17:36:35,278 - This is round 124, the accuracy of class 6: 0.9937
+2026-02-09 17:37:25,256 - epoch 125: Train_loss: 0.095582, Test_loss: 3.986324, Train_OA: 0.999255, Test_OA: 0.996361, Test_AA: 0.988282, Kappa:1.00
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 1: 1.0000
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 2: 0.9966
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 3: 0.9583
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 4: 1.0000
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 5: 1.0000
+2026-02-09 17:37:25,257 - This is round 125, the accuracy of class 6: 0.9748
+2026-02-09 17:38:15,654 - epoch 126: Train_loss: 0.143341, Test_loss: 4.156821, Train_OA: 0.999379, Test_OA: 0.997849, Test_AA: 0.992021, Kappa:1.00
+2026-02-09 17:38:15,654 - This is round 126, the accuracy of class 1: 1.0000
+2026-02-09 17:38:15,654 - This is round 126, the accuracy of class 2: 0.9897
+2026-02-09 17:38:15,654 - This is round 126, the accuracy of class 3: 0.9688
+2026-02-09 17:38:15,654 - This is round 126, the accuracy of class 4: 1.0000
+2026-02-09 17:38:15,655 - This is round 126, the accuracy of class 5: 1.0000
+2026-02-09 17:38:15,655 - This is round 126, the accuracy of class 6: 0.9937
+2026-02-09 17:39:05,984 - epoch 127: Train_loss: 0.114701, Test_loss: 4.197707, Train_OA: 0.999255, Test_OA: 0.998511, Test_AA: 0.994642, Kappa:1.00
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 1: 1.0000
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 2: 0.9966
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 3: 0.9792
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 4: 1.0000
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 5: 1.0000
+2026-02-09 17:39:05,985 - This is round 127, the accuracy of class 6: 0.9921
+2026-02-09 17:39:55,899 - epoch 128: Train_loss: 0.095975, Test_loss: 4.150671, Train_OA: 0.999297, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 17:39:55,899 - This is round 128, the accuracy of class 1: 1.0000
+2026-02-09 17:39:55,899 - This is round 128, the accuracy of class 2: 0.9948
+2026-02-09 17:39:55,900 - This is round 128, the accuracy of class 3: 0.9688
+2026-02-09 17:39:55,900 - This is round 128, the accuracy of class 4: 1.0000
+2026-02-09 17:39:55,900 - This is round 128, the accuracy of class 5: 1.0000
+2026-02-09 17:39:55,900 - This is round 128, the accuracy of class 6: 0.9921
+2026-02-09 17:40:45,953 - epoch 129: Train_loss: 0.098895, Test_loss: 3.920519, Train_OA: 0.999421, Test_OA: 0.997849, Test_AA: 0.990645, Kappa:1.00
+2026-02-09 17:40:45,953 - This is round 129, the accuracy of class 1: 1.0000
+2026-02-09 17:40:45,953 - This is round 129, the accuracy of class 2: 0.9966
+2026-02-09 17:40:45,954 - This is round 129, the accuracy of class 3: 0.9583
+2026-02-09 17:40:45,954 - This is round 129, the accuracy of class 4: 1.0000
+2026-02-09 17:40:45,954 - This is round 129, the accuracy of class 5: 1.0000
+2026-02-09 17:40:45,955 - This is round 129, the accuracy of class 6: 0.9890
+2026-02-09 17:41:36,222 - epoch 130: Train_loss: 0.113858, Test_loss: 3.892722, Train_OA: 0.999462, Test_OA: 0.997684, Test_AA: 0.990333, Kappa:1.00
+2026-02-09 17:41:36,223 - This is round 130, the accuracy of class 1: 1.0000
+2026-02-09 17:41:36,223 - This is round 130, the accuracy of class 2: 0.9931
+2026-02-09 17:41:36,223 - This is round 130, the accuracy of class 3: 0.9583
+2026-02-09 17:41:36,223 - This is round 130, the accuracy of class 4: 1.0000
+2026-02-09 17:41:36,223 - This is round 130, the accuracy of class 5: 1.0000
+2026-02-09 17:41:36,224 - This is round 130, the accuracy of class 6: 0.9906
+2026-02-09 17:42:26,137 - epoch 131: Train_loss: 0.092471, Test_loss: 3.891832, Train_OA: 0.999462, Test_OA: 0.998015, Test_AA: 0.990858, Kappa:1.00
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 1: 1.0000
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 2: 0.9931
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 3: 0.9583
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 4: 1.0000
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 5: 1.0000
+2026-02-09 17:42:26,137 - This is round 131, the accuracy of class 6: 0.9937
+2026-02-09 17:43:16,253 - epoch 132: Train_loss: 0.128733, Test_loss: 4.166031, Train_OA: 0.999255, Test_OA: 0.998015, Test_AA: 0.992332, Kappa:1.00
+2026-02-09 17:43:16,253 - This is round 132, the accuracy of class 1: 1.0000
+2026-02-09 17:43:16,253 - This is round 132, the accuracy of class 2: 0.9931
+2026-02-09 17:43:16,253 - This is round 132, the accuracy of class 3: 0.9688
+2026-02-09 17:43:16,254 - This is round 132, the accuracy of class 4: 1.0000
+2026-02-09 17:43:16,254 - This is round 132, the accuracy of class 5: 1.0000
+2026-02-09 17:43:16,254 - This is round 132, the accuracy of class 6: 0.9921
+2026-02-09 17:44:06,405 - epoch 133: Train_loss: 0.098943, Test_loss: 4.050700, Train_OA: 0.999090, Test_OA: 0.998015, Test_AA: 0.992259, Kappa:1.00
+2026-02-09 17:44:06,405 - This is round 133, the accuracy of class 1: 1.0000
+2026-02-09 17:44:06,406 - This is round 133, the accuracy of class 2: 0.9880
+2026-02-09 17:44:06,406 - This is round 133, the accuracy of class 3: 0.9688
+2026-02-09 17:44:06,406 - This is round 133, the accuracy of class 4: 1.0000
+2026-02-09 17:44:06,406 - This is round 133, the accuracy of class 5: 1.0000
+2026-02-09 17:44:06,406 - This is round 133, the accuracy of class 6: 0.9969
+2026-02-09 17:44:56,588 - epoch 134: Train_loss: 0.113734, Test_loss: 4.349748, Train_OA: 0.999131, Test_OA: 0.997684, Test_AA: 0.990382, Kappa:1.00
+2026-02-09 17:44:56,589 - This is round 134, the accuracy of class 1: 1.0000
+2026-02-09 17:44:56,589 - This is round 134, the accuracy of class 2: 0.9966
+2026-02-09 17:44:56,589 - This is round 134, the accuracy of class 3: 0.9583
+2026-02-09 17:44:56,589 - This is round 134, the accuracy of class 4: 1.0000
+2026-02-09 17:44:56,589 - This is round 134, the accuracy of class 5: 1.0000
+2026-02-09 17:44:56,590 - This is round 134, the accuracy of class 6: 0.9874
+2026-02-09 17:45:46,626 - epoch 135: Train_loss: 0.102604, Test_loss: 4.198628, Train_OA: 0.999131, Test_OA: 0.996691, Test_AA: 0.992646, Kappa:1.00
+2026-02-09 17:45:46,627 - This is round 135, the accuracy of class 1: 1.0000
+2026-02-09 17:45:46,627 - This is round 135, the accuracy of class 2: 0.9948
+2026-02-09 17:45:46,627 - This is round 135, the accuracy of class 3: 0.9792
+2026-02-09 17:45:46,627 - This is round 135, the accuracy of class 4: 1.0000
+2026-02-09 17:45:46,627 - This is round 135, the accuracy of class 5: 0.9976
+2026-02-09 17:45:46,628 - This is round 135, the accuracy of class 6: 0.9843
+2026-02-09 17:46:36,621 - epoch 136: Train_loss: 0.090992, Test_loss: 4.106900, Train_OA: 0.999421, Test_OA: 0.998015, Test_AA: 0.992356, Kappa:1.00
+2026-02-09 17:46:36,621 - This is round 136, the accuracy of class 1: 1.0000
+2026-02-09 17:46:36,622 - This is round 136, the accuracy of class 2: 0.9948
+2026-02-09 17:46:36,622 - This is round 136, the accuracy of class 3: 0.9688
+2026-02-09 17:46:36,622 - This is round 136, the accuracy of class 4: 1.0000
+2026-02-09 17:46:36,622 - This is round 136, the accuracy of class 5: 1.0000
+2026-02-09 17:46:36,622 - This is round 136, the accuracy of class 6: 0.9906
+2026-02-09 17:47:26,488 - epoch 137: Train_loss: 0.088853, Test_loss: 3.917174, Train_OA: 0.999255, Test_OA: 0.997684, Test_AA: 0.991856, Kappa:1.00
+2026-02-09 17:47:26,488 - This is round 137, the accuracy of class 1: 1.0000
+2026-02-09 17:47:26,488 - This is round 137, the accuracy of class 2: 0.9966
+2026-02-09 17:47:26,488 - This is round 137, the accuracy of class 3: 0.9688
+2026-02-09 17:47:26,489 - This is round 137, the accuracy of class 4: 1.0000
+2026-02-09 17:47:26,489 - This is round 137, the accuracy of class 5: 1.0000
+2026-02-09 17:47:26,489 - This is round 137, the accuracy of class 6: 0.9858
+2026-02-09 17:48:16,613 - epoch 138: Train_loss: 0.094595, Test_loss: 3.925916, Train_OA: 0.999172, Test_OA: 0.999007, Test_AA: 0.993955, Kappa:1.00
+2026-02-09 17:48:16,614 - This is round 138, the accuracy of class 1: 1.0000
+2026-02-09 17:48:16,614 - This is round 138, the accuracy of class 2: 0.9966
+2026-02-09 17:48:16,614 - This is round 138, the accuracy of class 3: 0.9688
+2026-02-09 17:48:16,614 - This is round 138, the accuracy of class 4: 1.0000
+2026-02-09 17:48:16,615 - This is round 138, the accuracy of class 5: 1.0000
+2026-02-09 17:48:16,615 - This is round 138, the accuracy of class 6: 0.9984
+2026-02-09 17:49:06,724 - epoch 139: Train_loss: 0.088440, Test_loss: 4.130622, Train_OA: 0.999214, Test_OA: 0.998346, Test_AA: 0.992857, Kappa:1.00
+2026-02-09 17:49:06,724 - This is round 139, the accuracy of class 1: 1.0000
+2026-02-09 17:49:06,724 - This is round 139, the accuracy of class 2: 0.9931
+2026-02-09 17:49:06,724 - This is round 139, the accuracy of class 3: 0.9688
+2026-02-09 17:49:06,724 - This is round 139, the accuracy of class 4: 1.0000
+2026-02-09 17:49:06,725 - This is round 139, the accuracy of class 5: 1.0000
+2026-02-09 17:49:06,725 - This is round 139, the accuracy of class 6: 0.9953
+2026-02-09 17:49:56,812 - epoch 140: Train_loss: 0.135988, Test_loss: 3.986589, Train_OA: 0.999214, Test_OA: 0.998180, Test_AA: 0.992546, Kappa:1.00
+2026-02-09 17:49:56,812 - This is round 140, the accuracy of class 1: 1.0000
+2026-02-09 17:49:56,812 - This is round 140, the accuracy of class 2: 0.9897
+2026-02-09 17:49:56,812 - This is round 140, the accuracy of class 3: 0.9688
+2026-02-09 17:49:56,813 - This is round 140, the accuracy of class 4: 1.0000
+2026-02-09 17:49:56,813 - This is round 140, the accuracy of class 5: 1.0000
+2026-02-09 17:49:56,813 - This is round 140, the accuracy of class 6: 0.9969
+2026-02-09 17:50:46,908 - epoch 141: Train_loss: 0.104088, Test_loss: 3.784379, Train_OA: 0.999338, Test_OA: 0.997519, Test_AA: 0.991752, Kappa:1.00
+2026-02-09 17:50:46,908 - This is round 141, the accuracy of class 1: 1.0000
+2026-02-09 17:50:46,908 - This is round 141, the accuracy of class 2: 0.9948
+2026-02-09 17:50:46,909 - This is round 141, the accuracy of class 3: 0.9688
+2026-02-09 17:50:46,909 - This is round 141, the accuracy of class 4: 1.0000
+2026-02-09 17:50:46,909 - This is round 141, the accuracy of class 5: 0.9995
+2026-02-09 17:50:46,909 - This is round 141, the accuracy of class 6: 0.9874
+2026-02-09 17:51:37,351 - epoch 142: Train_loss: 0.121743, Test_loss: 4.207944, Train_OA: 0.999379, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 17:51:37,351 - This is round 142, the accuracy of class 1: 1.0000
+2026-02-09 17:51:37,351 - This is round 142, the accuracy of class 2: 0.9948
+2026-02-09 17:51:37,351 - This is round 142, the accuracy of class 3: 0.9688
+2026-02-09 17:51:37,351 - This is round 142, the accuracy of class 4: 1.0000
+2026-02-09 17:51:37,351 - This is round 142, the accuracy of class 5: 1.0000
+2026-02-09 17:51:37,352 - This is round 142, the accuracy of class 6: 0.9921
+2026-02-09 17:52:27,362 - epoch 143: Train_loss: 0.097951, Test_loss: 4.042149, Train_OA: 0.999421, Test_OA: 0.998015, Test_AA: 0.992356, Kappa:1.00
+2026-02-09 17:52:27,362 - This is round 143, the accuracy of class 1: 1.0000
+2026-02-09 17:52:27,362 - This is round 143, the accuracy of class 2: 0.9948
+2026-02-09 17:52:27,363 - This is round 143, the accuracy of class 3: 0.9688
+2026-02-09 17:52:27,363 - This is round 143, the accuracy of class 4: 1.0000
+2026-02-09 17:52:27,363 - This is round 143, the accuracy of class 5: 1.0000
+2026-02-09 17:52:27,363 - This is round 143, the accuracy of class 6: 0.9906
+2026-02-09 17:53:17,634 - epoch 144: Train_loss: 0.094467, Test_loss: 4.096325, Train_OA: 0.999379, Test_OA: 0.997849, Test_AA: 0.992094, Kappa:1.00
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 1: 1.0000
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 2: 0.9948
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 3: 0.9688
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 4: 1.0000
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 5: 1.0000
+2026-02-09 17:53:17,635 - This is round 144, the accuracy of class 6: 0.9890
+2026-02-09 17:54:07,788 - epoch 145: Train_loss: 0.109263, Test_loss: 3.965139, Train_OA: 0.999379, Test_OA: 0.997684, Test_AA: 0.991807, Kappa:1.00
+2026-02-09 17:54:07,788 - This is round 145, the accuracy of class 1: 1.0000
+2026-02-09 17:54:07,788 - This is round 145, the accuracy of class 2: 0.9931
+2026-02-09 17:54:07,788 - This is round 145, the accuracy of class 3: 0.9688
+2026-02-09 17:54:07,789 - This is round 145, the accuracy of class 4: 1.0000
+2026-02-09 17:54:07,789 - This is round 145, the accuracy of class 5: 1.0000
+2026-02-09 17:54:07,789 - This is round 145, the accuracy of class 6: 0.9890
+2026-02-09 17:54:57,766 - epoch 146: Train_loss: 0.140534, Test_loss: 4.087152, Train_OA: 0.999214, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 17:54:57,766 - This is round 146, the accuracy of class 1: 1.0000
+2026-02-09 17:54:57,767 - This is round 146, the accuracy of class 2: 0.9948
+2026-02-09 17:54:57,767 - This is round 146, the accuracy of class 3: 0.9688
+2026-02-09 17:54:57,767 - This is round 146, the accuracy of class 4: 1.0000
+2026-02-09 17:54:57,767 - This is round 146, the accuracy of class 5: 1.0000
+2026-02-09 17:54:57,767 - This is round 146, the accuracy of class 6: 0.9921
+2026-02-09 17:55:48,032 - epoch 147: Train_loss: 0.111667, Test_loss: 4.088064, Train_OA: 0.999338, Test_OA: 0.997849, Test_AA: 0.993494, Kappa:1.00
+2026-02-09 17:55:48,033 - This is round 147, the accuracy of class 1: 1.0000
+2026-02-09 17:55:48,033 - This is round 147, the accuracy of class 2: 0.9897
+2026-02-09 17:55:48,033 - This is round 147, the accuracy of class 3: 0.9792
+2026-02-09 17:55:48,033 - This is round 147, the accuracy of class 4: 1.0000
+2026-02-09 17:55:48,033 - This is round 147, the accuracy of class 5: 1.0000
+2026-02-09 17:55:48,034 - This is round 147, the accuracy of class 6: 0.9921
+2026-02-09 17:56:38,023 - epoch 148: Train_loss: 0.090166, Test_loss: 3.989125, Train_OA: 0.999255, Test_OA: 0.997519, Test_AA: 0.993067, Kappa:1.00
+2026-02-09 17:56:38,023 - This is round 148, the accuracy of class 1: 1.0000
+2026-02-09 17:56:38,024 - This is round 148, the accuracy of class 2: 0.9966
+2026-02-09 17:56:38,024 - This is round 148, the accuracy of class 3: 0.9792
+2026-02-09 17:56:38,024 - This is round 148, the accuracy of class 4: 1.0000
+2026-02-09 17:56:38,024 - This is round 148, the accuracy of class 5: 1.0000
+2026-02-09 17:56:38,024 - This is round 148, the accuracy of class 6: 0.9827
+2026-02-09 17:57:27,831 - epoch 149: Train_loss: 0.088879, Test_loss: 4.218599, Train_OA: 0.999297, Test_OA: 0.998015, Test_AA: 0.992307, Kappa:1.00
+2026-02-09 17:57:27,831 - This is round 149, the accuracy of class 1: 1.0000
+2026-02-09 17:57:27,832 - This is round 149, the accuracy of class 2: 0.9914
+2026-02-09 17:57:27,832 - This is round 149, the accuracy of class 3: 0.9688
+2026-02-09 17:57:27,832 - This is round 149, the accuracy of class 4: 1.0000
+2026-02-09 17:57:27,832 - This is round 149, the accuracy of class 5: 1.0000
+2026-02-09 17:57:27,832 - This is round 149, the accuracy of class 6: 0.9937
+2026-02-09 17:58:17,762 - epoch 150: Train_loss: 0.100156, Test_loss: 3.936279, Train_OA: 0.999462, Test_OA: 0.998015, Test_AA: 0.992307, Kappa:1.00
+2026-02-09 17:58:17,762 - This is round 150, the accuracy of class 1: 1.0000
+2026-02-09 17:58:17,762 - This is round 150, the accuracy of class 2: 0.9914
+2026-02-09 17:58:17,762 - This is round 150, the accuracy of class 3: 0.9688
+2026-02-09 17:58:17,763 - This is round 150, the accuracy of class 4: 1.0000
+2026-02-09 17:58:17,763 - This is round 150, the accuracy of class 5: 1.0000
+2026-02-09 17:58:17,763 - This is round 150, the accuracy of class 6: 0.9937
+2026-02-09 17:59:07,709 - epoch 151: Train_loss: 0.093887, Test_loss: 4.300532, Train_OA: 0.999669, Test_OA: 0.998180, Test_AA: 0.992643, Kappa:1.00
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 1: 1.0000
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 2: 0.9966
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 3: 0.9688
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 4: 1.0000
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 5: 1.0000
+2026-02-09 17:59:07,710 - This is round 151, the accuracy of class 6: 0.9906
+2026-02-09 17:59:57,772 - epoch 152: Train_loss: 0.095820, Test_loss: 3.984934, Train_OA: 0.999503, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 17:59:57,772 - This is round 152, the accuracy of class 1: 1.0000
+2026-02-09 17:59:57,772 - This is round 152, the accuracy of class 2: 0.9948
+2026-02-09 17:59:57,772 - This is round 152, the accuracy of class 3: 0.9688
+2026-02-09 17:59:57,773 - This is round 152, the accuracy of class 4: 1.0000
+2026-02-09 17:59:57,773 - This is round 152, the accuracy of class 5: 1.0000
+2026-02-09 17:59:57,773 - This is round 152, the accuracy of class 6: 0.9921
+2026-02-09 18:00:48,138 - epoch 153: Train_loss: 0.088876, Test_loss: 4.087445, Train_OA: 0.999628, Test_OA: 0.998015, Test_AA: 0.992381, Kappa:1.00
+2026-02-09 18:00:48,138 - This is round 153, the accuracy of class 1: 1.0000
+2026-02-09 18:00:48,138 - This is round 153, the accuracy of class 2: 0.9966
+2026-02-09 18:00:48,139 - This is round 153, the accuracy of class 3: 0.9688
+2026-02-09 18:00:48,139 - This is round 153, the accuracy of class 4: 1.0000
+2026-02-09 18:00:48,139 - This is round 153, the accuracy of class 5: 1.0000
+2026-02-09 18:00:48,139 - This is round 153, the accuracy of class 6: 0.9890
+2026-02-09 18:01:38,369 - epoch 154: Train_loss: 0.090714, Test_loss: 4.107441, Train_OA: 0.999503, Test_OA: 0.998180, Test_AA: 0.994117, Kappa:1.00
+2026-02-09 18:01:38,369 - This is round 154, the accuracy of class 1: 1.0000
+2026-02-09 18:01:38,370 - This is round 154, the accuracy of class 2: 0.9966
+2026-02-09 18:01:38,370 - This is round 154, the accuracy of class 3: 0.9792
+2026-02-09 18:01:38,370 - This is round 154, the accuracy of class 4: 1.0000
+2026-02-09 18:01:38,370 - This is round 154, the accuracy of class 5: 1.0000
+2026-02-09 18:01:38,370 - This is round 154, the accuracy of class 6: 0.9890
+2026-02-09 18:02:28,683 - epoch 155: Train_loss: 0.095062, Test_loss: 3.992100, Train_OA: 0.999462, Test_OA: 0.997519, Test_AA: 0.991447, Kappa:1.00
+2026-02-09 18:02:28,684 - This is round 155, the accuracy of class 1: 1.0000
+2026-02-09 18:02:28,684 - This is round 155, the accuracy of class 2: 0.9862
+2026-02-09 18:02:28,684 - This is round 155, the accuracy of class 3: 0.9688
+2026-02-09 18:02:28,684 - This is round 155, the accuracy of class 4: 1.0000
+2026-02-09 18:02:28,684 - This is round 155, the accuracy of class 5: 1.0000
+2026-02-09 18:02:28,685 - This is round 155, the accuracy of class 6: 0.9937
+2026-02-09 18:03:18,904 - epoch 156: Train_loss: 0.099204, Test_loss: 4.052376, Train_OA: 0.999462, Test_OA: 0.998346, Test_AA: 0.992857, Kappa:1.00
+2026-02-09 18:03:18,904 - This is round 156, the accuracy of class 1: 1.0000
+2026-02-09 18:03:18,904 - This is round 156, the accuracy of class 2: 0.9931
+2026-02-09 18:03:18,905 - This is round 156, the accuracy of class 3: 0.9688
+2026-02-09 18:03:18,905 - This is round 156, the accuracy of class 4: 1.0000
+2026-02-09 18:03:18,905 - This is round 156, the accuracy of class 5: 1.0000
+2026-02-09 18:03:18,905 - This is round 156, the accuracy of class 6: 0.9953
+2026-02-09 18:04:08,900 - epoch 157: Train_loss: 0.097400, Test_loss: 4.034785, Train_OA: 0.999462, Test_OA: 0.998015, Test_AA: 0.992332, Kappa:1.00
+2026-02-09 18:04:08,900 - This is round 157, the accuracy of class 1: 1.0000
+2026-02-09 18:04:08,900 - This is round 157, the accuracy of class 2: 0.9931
+2026-02-09 18:04:08,901 - This is round 157, the accuracy of class 3: 0.9688
+2026-02-09 18:04:08,901 - This is round 157, the accuracy of class 4: 1.0000
+2026-02-09 18:04:08,901 - This is round 157, the accuracy of class 5: 1.0000
+2026-02-09 18:04:08,901 - This is round 157, the accuracy of class 6: 0.9921
+2026-02-09 18:04:58,865 - epoch 158: Train_loss: 0.096132, Test_loss: 4.118778, Train_OA: 0.999628, Test_OA: 0.998180, Test_AA: 0.992594, Kappa:1.00
+2026-02-09 18:04:58,865 - This is round 158, the accuracy of class 1: 1.0000
+2026-02-09 18:04:58,865 - This is round 158, the accuracy of class 2: 0.9931
+2026-02-09 18:04:58,866 - This is round 158, the accuracy of class 3: 0.9688
+2026-02-09 18:04:58,866 - This is round 158, the accuracy of class 4: 1.0000
+2026-02-09 18:04:58,866 - This is round 158, the accuracy of class 5: 1.0000
+2026-02-09 18:04:58,866 - This is round 158, the accuracy of class 6: 0.9937
+2026-02-09 18:05:48,724 - epoch 159: Train_loss: 0.108180, Test_loss: 3.972173, Train_OA: 0.999503, Test_OA: 0.998015, Test_AA: 0.993732, Kappa:1.00
+2026-02-09 18:05:48,724 - This is round 159, the accuracy of class 1: 1.0000
+2026-02-09 18:05:48,725 - This is round 159, the accuracy of class 2: 0.9880
+2026-02-09 18:05:48,725 - This is round 159, the accuracy of class 3: 0.9792
+2026-02-09 18:05:48,725 - This is round 159, the accuracy of class 4: 1.0000
+2026-02-09 18:05:48,725 - This is round 159, the accuracy of class 5: 1.0000
+2026-02-09 18:05:48,726 - This is round 159, the accuracy of class 6: 0.9953
+2026-02-09 18:06:39,108 - epoch 160: Train_loss: 0.093673, Test_loss: 4.252337, Train_OA: 0.999669, Test_OA: 0.997849, Test_AA: 0.990645, Kappa:1.00
+2026-02-09 18:06:39,108 - This is round 160, the accuracy of class 1: 1.0000
+2026-02-09 18:06:39,109 - This is round 160, the accuracy of class 2: 0.9966
+2026-02-09 18:06:39,109 - This is round 160, the accuracy of class 3: 0.9583
+2026-02-09 18:06:39,109 - This is round 160, the accuracy of class 4: 1.0000
+2026-02-09 18:06:39,109 - This is round 160, the accuracy of class 5: 1.0000
+2026-02-09 18:06:39,110 - This is round 160, the accuracy of class 6: 0.9890
+2026-02-09 18:07:28,975 - epoch 161: Train_loss: 0.088519, Test_loss: 4.048923, Train_OA: 0.999379, Test_OA: 0.998346, Test_AA: 0.994355, Kappa:1.00
+2026-02-09 18:07:28,975 - This is round 161, the accuracy of class 1: 1.0000
+2026-02-09 18:07:28,976 - This is round 161, the accuracy of class 2: 0.9948
+2026-02-09 18:07:28,976 - This is round 161, the accuracy of class 3: 0.9792
+2026-02-09 18:07:28,976 - This is round 161, the accuracy of class 4: 1.0000
+2026-02-09 18:07:28,976 - This is round 161, the accuracy of class 5: 1.0000
+2026-02-09 18:07:28,976 - This is round 161, the accuracy of class 6: 0.9921
+2026-02-09 18:08:18,832 - epoch 162: Train_loss: 0.087425, Test_loss: 3.890817, Train_OA: 0.999338, Test_OA: 0.997849, Test_AA: 0.993543, Kappa:1.00
+2026-02-09 18:08:18,832 - This is round 162, the accuracy of class 1: 1.0000
+2026-02-09 18:08:18,832 - This is round 162, the accuracy of class 2: 0.9931
+2026-02-09 18:08:18,833 - This is round 162, the accuracy of class 3: 0.9792
+2026-02-09 18:08:18,833 - This is round 162, the accuracy of class 4: 1.0000
+2026-02-09 18:08:18,833 - This is round 162, the accuracy of class 5: 1.0000
+2026-02-09 18:08:18,833 - This is round 162, the accuracy of class 6: 0.9890
+2026-02-09 18:09:08,928 - epoch 163: Train_loss: 0.091989, Test_loss: 3.957815, Train_OA: 0.999586, Test_OA: 0.998511, Test_AA: 0.993144, Kappa:1.00
+2026-02-09 18:09:08,929 - This is round 163, the accuracy of class 1: 1.0000
+2026-02-09 18:09:08,929 - This is round 163, the accuracy of class 2: 0.9948
+2026-02-09 18:09:08,929 - This is round 163, the accuracy of class 3: 0.9688
+2026-02-09 18:09:08,929 - This is round 163, the accuracy of class 4: 1.0000
+2026-02-09 18:09:08,930 - This is round 163, the accuracy of class 5: 1.0000
+2026-02-09 18:09:08,930 - This is round 163, the accuracy of class 6: 0.9953
+2026-02-09 18:09:58,769 - epoch 164: Train_loss: 0.092241, Test_loss: 4.194703, Train_OA: 0.999462, Test_OA: 0.998180, Test_AA: 0.994117, Kappa:1.00
+2026-02-09 18:09:58,769 - This is round 164, the accuracy of class 1: 1.0000
+2026-02-09 18:09:58,769 - This is round 164, the accuracy of class 2: 0.9966
+2026-02-09 18:09:58,769 - This is round 164, the accuracy of class 3: 0.9792
+2026-02-09 18:09:58,770 - This is round 164, the accuracy of class 4: 1.0000
+2026-02-09 18:09:58,770 - This is round 164, the accuracy of class 5: 1.0000
+2026-02-09 18:09:58,770 - This is round 164, the accuracy of class 6: 0.9890
+2026-02-09 18:10:48,488 - epoch 165: Train_loss: 0.094888, Test_loss: 4.163899, Train_OA: 0.999586, Test_OA: 0.997684, Test_AA: 0.990333, Kappa:1.00
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 1: 1.0000
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 2: 0.9931
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 3: 0.9583
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 4: 1.0000
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 5: 1.0000
+2026-02-09 18:10:48,489 - This is round 165, the accuracy of class 6: 0.9906
+2026-02-09 18:11:38,743 - epoch 166: Train_loss: 0.103499, Test_loss: 4.210356, Train_OA: 0.999421, Test_OA: 0.998180, Test_AA: 0.992643, Kappa:1.00
+2026-02-09 18:11:38,743 - This is round 166, the accuracy of class 1: 1.0000
+2026-02-09 18:11:38,743 - This is round 166, the accuracy of class 2: 0.9966
+2026-02-09 18:11:38,743 - This is round 166, the accuracy of class 3: 0.9688
+2026-02-09 18:11:38,744 - This is round 166, the accuracy of class 4: 1.0000
+2026-02-09 18:11:38,744 - This is round 166, the accuracy of class 5: 1.0000
+2026-02-09 18:11:38,744 - This is round 166, the accuracy of class 6: 0.9906
+2026-02-09 18:12:28,441 - epoch 167: Train_loss: 0.092238, Test_loss: 4.148600, Train_OA: 0.999545, Test_OA: 0.998015, Test_AA: 0.992332, Kappa:1.00
+2026-02-09 18:12:28,441 - This is round 167, the accuracy of class 1: 1.0000
+2026-02-09 18:12:28,441 - This is round 167, the accuracy of class 2: 0.9931
+2026-02-09 18:12:28,442 - This is round 167, the accuracy of class 3: 0.9688
+2026-02-09 18:12:28,442 - This is round 167, the accuracy of class 4: 1.0000
+2026-02-09 18:12:28,442 - This is round 167, the accuracy of class 5: 1.0000
+2026-02-09 18:12:28,442 - This is round 167, the accuracy of class 6: 0.9921
+2026-02-09 18:13:18,015 - epoch 168: Train_loss: 0.104789, Test_loss: 3.978770, Train_OA: 0.999586, Test_OA: 0.997684, Test_AA: 0.990260, Kappa:1.00
+2026-02-09 18:13:18,015 - This is round 168, the accuracy of class 1: 1.0000
+2026-02-09 18:13:18,015 - This is round 168, the accuracy of class 2: 0.9880
+2026-02-09 18:13:18,015 - This is round 168, the accuracy of class 3: 0.9583
+2026-02-09 18:13:18,016 - This is round 168, the accuracy of class 4: 1.0000
+2026-02-09 18:13:18,016 - This is round 168, the accuracy of class 5: 1.0000
+2026-02-09 18:13:18,016 - This is round 168, the accuracy of class 6: 0.9953
+2026-02-09 18:14:07,438 - epoch 169: Train_loss: 0.091518, Test_loss: 4.196589, Train_OA: 0.999545, Test_OA: 0.998015, Test_AA: 0.992307, Kappa:1.00
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 1: 1.0000
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 2: 0.9914
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 3: 0.9688
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 4: 1.0000
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 5: 1.0000
+2026-02-09 18:14:07,439 - This is round 169, the accuracy of class 6: 0.9937
+2026-02-09 18:14:57,266 - epoch 170: Train_loss: 0.112866, Test_loss: 4.200815, Train_OA: 0.999586, Test_OA: 0.997684, Test_AA: 0.987410, Kappa:1.00
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 1: 1.0000
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 2: 0.9948
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 3: 0.9375
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 4: 1.0000
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 5: 1.0000
+2026-02-09 18:14:57,267 - This is round 170, the accuracy of class 6: 0.9921
+2026-02-09 18:15:46,845 - epoch 171: Train_loss: 0.088350, Test_loss: 4.058198, Train_OA: 0.999462, Test_OA: 0.997849, Test_AA: 0.992045, Kappa:1.00
+2026-02-09 18:15:46,845 - This is round 171, the accuracy of class 1: 1.0000
+2026-02-09 18:15:46,845 - This is round 171, the accuracy of class 2: 0.9914
+2026-02-09 18:15:46,846 - This is round 171, the accuracy of class 3: 0.9688
+2026-02-09 18:15:46,846 - This is round 171, the accuracy of class 4: 1.0000
+2026-02-09 18:15:46,846 - This is round 171, the accuracy of class 5: 1.0000
+2026-02-09 18:15:46,846 - This is round 171, the accuracy of class 6: 0.9921
+2026-02-09 18:16:36,757 - epoch 172: Train_loss: 0.120787, Test_loss: 4.223387, Train_OA: 0.999421, Test_OA: 0.997849, Test_AA: 0.992094, Kappa:1.00
+2026-02-09 18:16:36,757 - This is round 172, the accuracy of class 1: 1.0000
+2026-02-09 18:16:36,757 - This is round 172, the accuracy of class 2: 0.9948
+2026-02-09 18:16:36,758 - This is round 172, the accuracy of class 3: 0.9688
+2026-02-09 18:16:36,758 - This is round 172, the accuracy of class 4: 1.0000
+2026-02-09 18:16:36,758 - This is round 172, the accuracy of class 5: 1.0000
+2026-02-09 18:16:36,758 - This is round 172, the accuracy of class 6: 0.9890
+2026-02-09 18:17:26,493 - epoch 173: Train_loss: 0.095116, Test_loss: 4.116223, Train_OA: 0.999545, Test_OA: 0.998015, Test_AA: 0.992356, Kappa:1.00
+2026-02-09 18:17:26,493 - This is round 173, the accuracy of class 1: 1.0000
+2026-02-09 18:17:26,493 - This is round 173, the accuracy of class 2: 0.9948
+2026-02-09 18:17:26,493 - This is round 173, the accuracy of class 3: 0.9688
+2026-02-09 18:17:26,493 - This is round 173, the accuracy of class 4: 1.0000
+2026-02-09 18:17:26,494 - This is round 173, the accuracy of class 5: 1.0000
+2026-02-09 18:17:26,494 - This is round 173, the accuracy of class 6: 0.9906
+2026-02-09 18:18:16,285 - epoch 174: Train_loss: 0.081219, Test_loss: 4.225754, Train_OA: 0.999586, Test_OA: 0.998180, Test_AA: 0.994092, Kappa:1.00
+2026-02-09 18:18:16,285 - This is round 174, the accuracy of class 1: 1.0000
+2026-02-09 18:18:16,285 - This is round 174, the accuracy of class 2: 0.9948
+2026-02-09 18:18:16,286 - This is round 174, the accuracy of class 3: 0.9792
+2026-02-09 18:18:16,286 - This is round 174, the accuracy of class 4: 1.0000
+2026-02-09 18:18:16,286 - This is round 174, the accuracy of class 5: 1.0000
+2026-02-09 18:18:16,286 - This is round 174, the accuracy of class 6: 0.9906
+2026-02-09 18:19:06,132 - epoch 175: Train_loss: 0.082472, Test_loss: 4.004509, Train_OA: 0.999545, Test_OA: 0.998346, Test_AA: 0.994355, Kappa:1.00
+2026-02-09 18:19:06,132 - This is round 175, the accuracy of class 1: 1.0000
+2026-02-09 18:19:06,132 - This is round 175, the accuracy of class 2: 0.9948
+2026-02-09 18:19:06,132 - This is round 175, the accuracy of class 3: 0.9792
+2026-02-09 18:19:06,132 - This is round 175, the accuracy of class 4: 1.0000
+2026-02-09 18:19:06,132 - This is round 175, the accuracy of class 5: 1.0000
+2026-02-09 18:19:06,133 - This is round 175, the accuracy of class 6: 0.9921
+2026-02-09 18:19:56,072 - epoch 176: Train_loss: 0.142886, Test_loss: 3.806904, Train_OA: 0.999503, Test_OA: 0.998346, Test_AA: 0.992857, Kappa:1.00
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 1: 1.0000
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 2: 0.9931
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 3: 0.9688
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 4: 1.0000
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 5: 1.0000
+2026-02-09 18:19:56,072 - This is round 176, the accuracy of class 6: 0.9953
+2026-02-09 18:20:46,764 - epoch 177: Train_loss: 0.086794, Test_loss: 4.089781, Train_OA: 0.999586, Test_OA: 0.998180, Test_AA: 0.992570, Kappa:1.00
+2026-02-09 18:20:46,765 - This is round 177, the accuracy of class 1: 1.0000
+2026-02-09 18:20:46,765 - This is round 177, the accuracy of class 2: 0.9914
+2026-02-09 18:20:46,765 - This is round 177, the accuracy of class 3: 0.9688
+2026-02-09 18:20:46,765 - This is round 177, the accuracy of class 4: 1.0000
+2026-02-09 18:20:46,766 - This is round 177, the accuracy of class 5: 1.0000
+2026-02-09 18:20:46,766 - This is round 177, the accuracy of class 6: 0.9953
+2026-02-09 18:21:36,789 - epoch 178: Train_loss: 0.085877, Test_loss: 4.202690, Train_OA: 0.999586, Test_OA: 0.997849, Test_AA: 0.992118, Kappa:1.00
+2026-02-09 18:21:36,789 - This is round 178, the accuracy of class 1: 1.0000
+2026-02-09 18:21:36,790 - This is round 178, the accuracy of class 2: 0.9966
+2026-02-09 18:21:36,790 - This is round 178, the accuracy of class 3: 0.9688
+2026-02-09 18:21:36,790 - This is round 178, the accuracy of class 4: 1.0000
+2026-02-09 18:21:36,790 - This is round 178, the accuracy of class 5: 1.0000
+2026-02-09 18:21:36,790 - This is round 178, the accuracy of class 6: 0.9874
+2026-02-09 18:22:26,794 - epoch 179: Train_loss: 0.228122, Test_loss: 4.359453, Train_OA: 0.999421, Test_OA: 0.997684, Test_AA: 0.991831, Kappa:1.00
+2026-02-09 18:22:26,795 - This is round 179, the accuracy of class 1: 1.0000
+2026-02-09 18:22:26,795 - This is round 179, the accuracy of class 2: 0.9948
+2026-02-09 18:22:26,795 - This is round 179, the accuracy of class 3: 0.9688
+2026-02-09 18:22:26,795 - This is round 179, the accuracy of class 4: 1.0000
+2026-02-09 18:22:26,795 - This is round 179, the accuracy of class 5: 1.0000
+2026-02-09 18:22:26,796 - This is round 179, the accuracy of class 6: 0.9874
+2026-02-09 18:23:17,000 - epoch 180: Train_loss: 0.114428, Test_loss: 4.032884, Train_OA: 0.999545, Test_OA: 0.998015, Test_AA: 0.992332, Kappa:1.00
+2026-02-09 18:23:17,000 - This is round 180, the accuracy of class 1: 1.0000
+2026-02-09 18:23:17,001 - This is round 180, the accuracy of class 2: 0.9931
+2026-02-09 18:23:17,001 - This is round 180, the accuracy of class 3: 0.9688
+2026-02-09 18:23:17,001 - This is round 180, the accuracy of class 4: 1.0000
+2026-02-09 18:23:17,002 - This is round 180, the accuracy of class 5: 1.0000
+2026-02-09 18:23:17,002 - This is round 180, the accuracy of class 6: 0.9921
+2026-02-09 18:24:07,450 - epoch 181: Train_loss: 0.087107, Test_loss: 3.966101, Train_OA: 0.999669, Test_OA: 0.998015, Test_AA: 0.992356, Kappa:1.00
+2026-02-09 18:24:07,450 - This is round 181, the accuracy of class 1: 1.0000
+2026-02-09 18:24:07,450 - This is round 181, the accuracy of class 2: 0.9948
+2026-02-09 18:24:07,450 - This is round 181, the accuracy of class 3: 0.9688
+2026-02-09 18:24:07,450 - This is round 181, the accuracy of class 4: 1.0000
+2026-02-09 18:24:07,451 - This is round 181, the accuracy of class 5: 1.0000
+2026-02-09 18:24:07,451 - This is round 181, the accuracy of class 6: 0.9906
+2026-02-09 18:24:57,514 - epoch 182: Train_loss: 0.105292, Test_loss: 4.083420, Train_OA: 0.999503, Test_OA: 0.998677, Test_AA: 0.993431, Kappa:1.00
+2026-02-09 18:24:57,514 - This is round 182, the accuracy of class 1: 1.0000
+2026-02-09 18:24:57,514 - This is round 182, the accuracy of class 2: 0.9966
+2026-02-09 18:24:57,514 - This is round 182, the accuracy of class 3: 0.9688
+2026-02-09 18:24:57,515 - This is round 182, the accuracy of class 4: 1.0000
+2026-02-09 18:24:57,515 - This is round 182, the accuracy of class 5: 1.0000
+2026-02-09 18:24:57,515 - This is round 182, the accuracy of class 6: 0.9953
+2026-02-09 18:25:48,127 - epoch 183: Train_loss: 0.193885, Test_loss: 4.357460, Train_OA: 0.999462, Test_OA: 0.997849, Test_AA: 0.992094, Kappa:1.00
+2026-02-09 18:25:48,128 - This is round 183, the accuracy of class 1: 1.0000
+2026-02-09 18:25:48,128 - This is round 183, the accuracy of class 2: 0.9948
+2026-02-09 18:25:48,128 - This is round 183, the accuracy of class 3: 0.9688
+2026-02-09 18:25:48,128 - This is round 183, the accuracy of class 4: 1.0000
+2026-02-09 18:25:48,128 - This is round 183, the accuracy of class 5: 1.0000
+2026-02-09 18:25:48,129 - This is round 183, the accuracy of class 6: 0.9890
+2026-02-09 18:26:38,614 - epoch 184: Train_loss: 0.123234, Test_loss: 4.094554, Train_OA: 0.999752, Test_OA: 0.998180, Test_AA: 0.994092, Kappa:1.00
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 1: 1.0000
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 2: 0.9948
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 3: 0.9792
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 4: 1.0000
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 5: 1.0000
+2026-02-09 18:26:38,614 - This is round 184, the accuracy of class 6: 0.9906
+2026-02-09 18:27:29,417 - epoch 185: Train_loss: 0.110710, Test_loss: 4.169777, Train_OA: 0.999503, Test_OA: 0.998511, Test_AA: 0.994617, Kappa:1.00
+2026-02-09 18:27:29,417 - This is round 185, the accuracy of class 1: 1.0000
+2026-02-09 18:27:29,417 - This is round 185, the accuracy of class 2: 0.9948
+2026-02-09 18:27:29,418 - This is round 185, the accuracy of class 3: 0.9792
+2026-02-09 18:27:29,418 - This is round 185, the accuracy of class 4: 1.0000
+2026-02-09 18:27:29,418 - This is round 185, the accuracy of class 5: 1.0000
+2026-02-09 18:27:29,418 - This is round 185, the accuracy of class 6: 0.9937
+2026-02-09 18:28:19,893 - epoch 186: Train_loss: 0.090814, Test_loss: 4.023933, Train_OA: 0.999421, Test_OA: 0.997684, Test_AA: 0.991709, Kappa:1.00
+2026-02-09 18:28:19,894 - This is round 186, the accuracy of class 1: 1.0000
+2026-02-09 18:28:19,894 - This is round 186, the accuracy of class 2: 0.9862
+2026-02-09 18:28:19,894 - This is round 186, the accuracy of class 3: 0.9688
+2026-02-09 18:28:19,894 - This is round 186, the accuracy of class 4: 1.0000
+2026-02-09 18:28:19,895 - This is round 186, the accuracy of class 5: 1.0000
+2026-02-09 18:28:19,895 - This is round 186, the accuracy of class 6: 0.9953
+2026-02-09 18:29:09,970 - epoch 187: Train_loss: 0.101659, Test_loss: 4.091781, Train_OA: 0.999669, Test_OA: 0.997849, Test_AA: 0.992118, Kappa:1.00
+2026-02-09 18:29:09,970 - This is round 187, the accuracy of class 1: 1.0000
+2026-02-09 18:29:09,970 - This is round 187, the accuracy of class 2: 0.9966
+2026-02-09 18:29:09,971 - This is round 187, the accuracy of class 3: 0.9688
+2026-02-09 18:29:09,971 - This is round 187, the accuracy of class 4: 1.0000
+2026-02-09 18:29:09,971 - This is round 187, the accuracy of class 5: 1.0000
+2026-02-09 18:29:09,971 - This is round 187, the accuracy of class 6: 0.9874
+2026-02-09 18:29:59,940 - epoch 188: Train_loss: 0.083048, Test_loss: 4.305676, Train_OA: 0.999669, Test_OA: 0.998346, Test_AA: 0.992857, Kappa:1.00
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 1: 1.0000
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 2: 0.9931
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 3: 0.9688
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 4: 1.0000
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 5: 1.0000
+2026-02-09 18:29:59,941 - This is round 188, the accuracy of class 6: 0.9953
+2026-02-09 18:30:50,078 - epoch 189: Train_loss: 0.080682, Test_loss: 4.237717, Train_OA: 0.999793, Test_OA: 0.998346, Test_AA: 0.994306, Kappa:1.00
+2026-02-09 18:30:50,078 - This is round 189, the accuracy of class 1: 1.0000
+2026-02-09 18:30:50,078 - This is round 189, the accuracy of class 2: 0.9914
+2026-02-09 18:30:50,079 - This is round 189, the accuracy of class 3: 0.9792
+2026-02-09 18:30:50,079 - This is round 189, the accuracy of class 4: 1.0000
+2026-02-09 18:30:50,079 - This is round 189, the accuracy of class 5: 1.0000
+2026-02-09 18:30:50,079 - This is round 189, the accuracy of class 6: 0.9953
+2026-02-09 18:31:44,106 - epoch 190: Train_loss: 0.096872, Test_loss: 4.193964, Train_OA: 0.999379, Test_OA: 0.998511, Test_AA: 0.994642, Kappa:1.00
+2026-02-09 18:31:44,106 - This is round 190, the accuracy of class 1: 1.0000
+2026-02-09 18:31:44,106 - This is round 190, the accuracy of class 2: 0.9966
+2026-02-09 18:31:44,107 - This is round 190, the accuracy of class 3: 0.9792
+2026-02-09 18:31:44,107 - This is round 190, the accuracy of class 4: 1.0000
+2026-02-09 18:31:44,107 - This is round 190, the accuracy of class 5: 1.0000
+2026-02-09 18:31:44,107 - This is round 190, the accuracy of class 6: 0.9921
+2026-02-09 18:32:39,025 - epoch 191: Train_loss: 0.079373, Test_loss: 4.224804, Train_OA: 0.999586, Test_OA: 0.997519, Test_AA: 0.992921, Kappa:1.00
+2026-02-09 18:32:39,026 - This is round 191, the accuracy of class 1: 1.0000
+2026-02-09 18:32:39,026 - This is round 191, the accuracy of class 2: 0.9862
+2026-02-09 18:32:39,026 - This is round 191, the accuracy of class 3: 0.9792
+2026-02-09 18:32:39,026 - This is round 191, the accuracy of class 4: 1.0000
+2026-02-09 18:32:39,027 - This is round 191, the accuracy of class 5: 1.0000
+2026-02-09 18:32:39,027 - This is round 191, the accuracy of class 6: 0.9921
+2026-02-09 18:33:34,910 - epoch 192: Train_loss: 0.104737, Test_loss: 4.031865, Train_OA: 0.999462, Test_OA: 0.998180, Test_AA: 0.992643, Kappa:1.00
+2026-02-09 18:33:34,910 - This is round 192, the accuracy of class 1: 1.0000
+2026-02-09 18:33:34,910 - This is round 192, the accuracy of class 2: 0.9966
+2026-02-09 18:33:34,910 - This is round 192, the accuracy of class 3: 0.9688
+2026-02-09 18:33:34,911 - This is round 192, the accuracy of class 4: 1.0000
+2026-02-09 18:33:34,911 - This is round 192, the accuracy of class 5: 1.0000
+2026-02-09 18:33:34,911 - This is round 192, the accuracy of class 6: 0.9906
+2026-02-09 18:34:28,810 - epoch 193: Train_loss: 0.085149, Test_loss: 4.087873, Train_OA: 0.999586, Test_OA: 0.997684, Test_AA: 0.991709, Kappa:1.00
+2026-02-09 18:34:28,811 - This is round 193, the accuracy of class 1: 1.0000
+2026-02-09 18:34:28,811 - This is round 193, the accuracy of class 2: 0.9862
+2026-02-09 18:34:28,811 - This is round 193, the accuracy of class 3: 0.9688
+2026-02-09 18:34:28,811 - This is round 193, the accuracy of class 4: 1.0000
+2026-02-09 18:34:28,811 - This is round 193, the accuracy of class 5: 1.0000
+2026-02-09 18:34:28,812 - This is round 193, the accuracy of class 6: 0.9953
+2026-02-09 18:35:18,502 - epoch 194: Train_loss: 0.080482, Test_loss: 4.191175, Train_OA: 0.999628, Test_OA: 0.998511, Test_AA: 0.994642, Kappa:1.00
+2026-02-09 18:35:18,502 - This is round 194, the accuracy of class 1: 1.0000
+2026-02-09 18:35:18,502 - This is round 194, the accuracy of class 2: 0.9966
+2026-02-09 18:35:18,503 - This is round 194, the accuracy of class 3: 0.9792
+2026-02-09 18:35:18,503 - This is round 194, the accuracy of class 4: 1.0000
+2026-02-09 18:35:18,503 - This is round 194, the accuracy of class 5: 1.0000
+2026-02-09 18:35:18,503 - This is round 194, the accuracy of class 6: 0.9921
+2026-02-09 18:36:14,015 - epoch 195: Train_loss: 0.077436, Test_loss: 4.173249, Train_OA: 0.999628, Test_OA: 0.998180, Test_AA: 0.992619, Kappa:1.00
+2026-02-09 18:36:14,015 - This is round 195, the accuracy of class 1: 1.0000
+2026-02-09 18:36:14,015 - This is round 195, the accuracy of class 2: 0.9948
+2026-02-09 18:36:14,015 - This is round 195, the accuracy of class 3: 0.9688
+2026-02-09 18:36:14,016 - This is round 195, the accuracy of class 4: 1.0000
+2026-02-09 18:36:14,016 - This is round 195, the accuracy of class 5: 1.0000
+2026-02-09 18:36:14,016 - This is round 195, the accuracy of class 6: 0.9921
+2026-02-09 18:37:11,114 - epoch 196: Train_loss: 0.110559, Test_loss: 4.215768, Train_OA: 0.999628, Test_OA: 0.997849, Test_AA: 0.992094, Kappa:1.00
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 1: 1.0000
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 2: 0.9948
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 3: 0.9688
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 4: 1.0000
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 5: 1.0000
+2026-02-09 18:37:11,115 - This is round 196, the accuracy of class 6: 0.9890
+2026-02-09 18:38:04,791 - epoch 197: Train_loss: 0.121904, Test_loss: 4.100698, Train_OA: 0.999669, Test_OA: 0.997519, Test_AA: 0.991447, Kappa:1.00
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 1: 1.0000
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 2: 0.9862
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 3: 0.9688
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 4: 1.0000
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 5: 1.0000
+2026-02-09 18:38:04,792 - This is round 197, the accuracy of class 6: 0.9937
+2026-02-09 18:39:00,616 - epoch 198: Train_loss: 0.079942, Test_loss: 4.273804, Train_OA: 0.999628, Test_OA: 0.998180, Test_AA: 0.992643, Kappa:1.00
+2026-02-09 18:39:00,616 - This is round 198, the accuracy of class 1: 1.0000
+2026-02-09 18:39:00,617 - This is round 198, the accuracy of class 2: 0.9966
+2026-02-09 18:39:00,617 - This is round 198, the accuracy of class 3: 0.9688
+2026-02-09 18:39:00,617 - This is round 198, the accuracy of class 4: 1.0000
+2026-02-09 18:39:00,617 - This is round 198, the accuracy of class 5: 1.0000
+2026-02-09 18:39:00,617 - This is round 198, the accuracy of class 6: 0.9906
+2026-02-09 18:39:56,991 - epoch 199: Train_loss: 0.086363, Test_loss: 4.487292, Train_OA: 0.999586, Test_OA: 0.998346, Test_AA: 0.994379, Kappa:1.00
+2026-02-09 18:39:56,991 - This is round 199, the accuracy of class 1: 1.0000
+2026-02-09 18:39:56,991 - This is round 199, the accuracy of class 2: 0.9966
+2026-02-09 18:39:56,992 - This is round 199, the accuracy of class 3: 0.9792
+2026-02-09 18:39:56,992 - This is round 199, the accuracy of class 4: 1.0000
+2026-02-09 18:39:56,992 - This is round 199, the accuracy of class 5: 1.0000
+2026-02-09 18:39:56,992 - This is round 199, the accuracy of class 6: 0.9906
+2026-02-09 18:40:49,638 - epoch 200: Train_loss: 0.081989, Test_loss: 4.322084, Train_OA: 0.999752, Test_OA: 0.998180, Test_AA: 0.994117, Kappa:1.00
+2026-02-09 18:40:49,638 - This is round 200, the accuracy of class 1: 1.0000
+2026-02-09 18:40:49,638 - This is round 200, the accuracy of class 2: 0.9966
+2026-02-09 18:40:49,638 - This is round 200, the accuracy of class 3: 0.9792
+2026-02-09 18:40:49,639 - This is round 200, the accuracy of class 4: 1.0000
+2026-02-09 18:40:49,639 - This is round 200, the accuracy of class 5: 1.0000
+2026-02-09 18:40:49,639 - This is round 200, the accuracy of class 6: 0.9890
+2026-02-09 18:40:49,709 - Trining time: 9035.64 s

@@ -1,0 +1,13 @@
+2026-02-10 19:23:09,886 - Parsed Input Arguments:
+2026-02-10 19:23:09,886 - model_arch: Fed_Fusion
+2026-02-10 19:23:09,886 - mode: MML
+2026-02-10 19:23:09,886 - inference_only: 0
+2026-02-10 19:23:09,887 - with_svd: 1
+2026-02-10 19:23:09,887 - svd_k: 8
+2026-02-10 19:23:09,887 - dataset_name: trento
+2026-02-10 19:23:09,887 - device: cpu
+2026-02-10 19:23:09,887 - output_dir: ./output/svd_test_k8
+2026-02-10 19:23:09,887 - save_excel: 1
+2026-02-10 19:23:09,887 - save_png: 1
+2026-02-10 19:23:09,887 - log_path: ./logs/svd_test_k8.log
+2026-02-10 19:23:09,887 - log_epoch: 1
