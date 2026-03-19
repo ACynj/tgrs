@@ -1,0 +1,11 @@
+\.venv/
+\.idea/
+\.vscode/
+\.pytest_cache/
+\.coverage
+\.pytest_cache/
+\.pytest_cache/
+\__pycache__/
+output/
+DATASET/
+datasets.zip
