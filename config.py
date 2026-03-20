@@ -18,7 +18,7 @@ dataset_config = {
     'houston13': {
         'dataset_dir': './DATASET/newhuston',
         'num_class': 15,
-        'hsi_n_feature': 48,
+        'hsi_n_feature': 144,  # Houston2013 原始 144 波段
         'lidar_n_feature': 1,
         'concate_pixel': (3, 3, 3, 3),
         'class_labels': {

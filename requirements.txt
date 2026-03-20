@@ -7,3 +7,6 @@ seaborn>=0.13
 openpyxl>=3.1.5
 pandas>=2.2.2
 h5py>=3.11
+
+# 可选：Houston 2013 真实 LiDAR 下载 (python download_houston_lidar.py)
+# rs-fusion-datasets>=0.9

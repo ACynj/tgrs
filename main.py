@@ -31,7 +31,7 @@ def command_parser():
     parser.add_argument('--inference_only', type=int, default='0')
     parser.add_argument('--with_svd', type=int, default='0', help="Use svd or not.")
     parser.add_argument('--svd_k', type=int, default='4', help="Only valid when with_svd is True.")
-    parser.add_argument('--dataset_name', type=str, default='houston13', help="Dataset name.")
+    parser.add_argument('--dataset_name', type=str, default='trento', help="Dataset name.")
     parser.add_argument('--device', type=str, default='cuda', help="cpu or cuda")
     parser.add_argument('--output_dir', type=str, default='./output', help="Base directory to save outputs.")
     parser.add_argument('--exp_name', type=str, default=None, help="Experiment name (optional)")
@@ -44,14 +44,18 @@ def command_parser():
     # 新增分布式训练参数
     parser.add_argument('--local_rank', type=int, default=0,
                         help='Local rank for distributed training')
-    parser.add_argument('--epochs', type=int, default=200,
-                        help='Number of training epochs')
+    parser.add_argument('--epochs', type=int, default=300,
+                        help='Number of training epochs (paper: 300)')
     parser.add_argument('--batch_size', type=int, default=64,
                         help='Batch size for training')
     parser.add_argument('--lr', type=float, default=0.001,
-                        help='Learning rate')
+                        help='Learning rate (paper: 0.001)')
     parser.add_argument('--weight_decay', type=float, default=0.001,
-                        help='Weight decay')
+                        help='Weight decay (L2 regularization)')
+    parser.add_argument('--resume', type=str, default=None,
+                        help='Path to checkpoint to resume training (optional)')
+    parser.add_argument('--seed', type=int, default=42,
+                        help='Random seed for reproducibility')
 
     args = parser.parse_args()
     return args
@@ -93,7 +97,10 @@ def load_dataset(batch_size):
 
     val_dataset = random_mini_batches_standardtwoModality(X1_test, X2_test, Y_test)
     val_loader = DataLoader(val_dataset, batch_size=len(val_dataset), shuffle=True)
+    # 单进程 (world_size=1) 时用完整双模态数据；多进程联邦时按 rank 分配单模态
     if not with_dist:
+        train_dataset = random_mini_batches_standardtwoModality(X1_train, X2_train, Y_train)
+    elif dist.get_world_size() == 1:
         train_dataset = random_mini_batches_standardtwoModality(X1_train, X2_train, Y_train)
     else:
         if dist.get_rank() == 0:
@@ -131,7 +138,7 @@ def train(model, optimizer, epochs, train_loader, test_loader, criterion, with_d
             outputs = model(x1, x2, with_svd=with_svd, k=svd_k)
             output1, _, _, _ = outputs
 
-            loss = criterion(output1, target)  # 注意：这里只传 output1
+            loss = criterion(outputs, target)  # 论文: CE + MSE + L2
 
             optimizer.zero_grad()
             loss.backward()
@@ -218,10 +225,10 @@ def test(model, test_loader, criterion):
             x2 = x2.to(device, dtype=torch.float32)
             target = torch.argmax(target, dim=1).to(device)
 
-            outputs = model(x1, x2, with_svd=with_svd)
+            outputs = model(x1, x2, with_svd=with_svd, k=svd_k)
             predictions, _, _, _ = outputs
 
-            loss = criterion(predictions, target)
+            loss = criterion(outputs, target)
 
             test_loss += loss.item() * target.size(0)
             all_targets.append(target)
@@ -346,7 +353,7 @@ def inference_all(only_valid=False):
             x2 = data2.to(torch.float32).to(device)
 
             # 模型推理
-            outputs = model(x1, x2, with_svd=with_svd)
+            outputs = model(x1, x2, with_svd=with_svd, k=svd_k)
             predictions, _, _, _ = outputs
             predictions = predictions.to(device)
 
@@ -468,9 +475,8 @@ def output_visual(pred_test):
     print(f"📊 图片大小: {pred_test.shape}")
 
 
-same_seeds(2)
-
 args = command_parser()
+same_seeds(args.seed)
 model_class = globals()[args.model_arch]
 mode = args.mode
 dataset_name = args.dataset_name.lower()
@@ -595,30 +601,8 @@ else:
 
 model = model_class(hsi_n_feature, lidar_n_feature, num_class).to(device)
 
-# ===== 加载已训练好的模型（继续训练） =====
-if not inference_only:
-    # 指定要加载的模型路径 - 使用第50轮的模型
-    resume_path = './output/exp_20260319_225814_svd8_bs32_ep200/models/Fed_Fusion_epoch_50.pth'
-
-    if os.path.exists(resume_path):
-        print(f"📂 加载模型继续训练: {resume_path}")
-        checkpoint = torch.load(resume_path, map_location=device)
-
-        # 加载模型权重
-        if isinstance(checkpoint, dict) and 'model_state_dict' in checkpoint:
-            model.load_state_dict(checkpoint['model_state_dict'])
-            # 也可以选择加载优化器状态
-            if 'optimizer_state_dict' in checkpoint:
-                optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-            start_epoch = checkpoint.get('epoch', 0)
-            print(f"✅ 模型加载成功！从 epoch {start_epoch} 继续训练")
-        else:
-            model.load_state_dict(checkpoint)
-            start_epoch = 50
-            print(f"✅ 模型加载成功！从 epoch 50 继续训练")
-    else:
-        print(f"⚠️ 未找到模型文件: {resume_path}, 从头开始训练")
-        start_epoch = 0
+# ===== 可选：从检查点恢复训练 =====
+# 仅当指定 --resume 时加载，否则从头训练
 
 # 更新权重路径到实验目录
 if with_svd:
@@ -634,19 +618,29 @@ weight_decay = args.weight_decay
 # 改为 SGD with momentum
 # optimizer = optim.SGD(model.parameters(), lr=base_lr, momentum=0.9, weight_decay=weight_decay)
 
-optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=0.0001)
-
-scheduler = StepLR(optimizer, step_size=30, gamma=0.5)
+# 论文参数: Adam, lr=0.001, StepLR step_size=60, gamma=0.5
+optimizer = optim.Adam(model.parameters(), lr=base_lr, weight_decay=weight_decay)
+scheduler = StepLR(optimizer, step_size=60, gamma=0.5)
 log_and_print("epoches = {0}, batch size = {1}, base learning rate = {2}, weight decay = {3}".format(epochs, batch_size,
                                                                                                      base_lr,
                                                                                                      weight_decay))
 
+# 可选：从检查点恢复训练（仅当指定 --resume 时）
+if args.resume and os.path.exists(args.resume):
+    print(f"📂 从检查点恢复训练: {args.resume}")
+    checkpoint = torch.load(args.resume, map_location=device)
+    if isinstance(checkpoint, dict) and 'model_state_dict' in checkpoint:
+        model.load_state_dict(checkpoint['model_state_dict'])
+        if 'optimizer_state_dict' in checkpoint:
+            optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        print(f"✅ 已恢复 epoch {checkpoint.get('epoch', 0)}")
+
 # 加载数据集
 train_loader, test_loader = load_dataset(batch_size)
 
-# ===== 使用普通交叉熵损失（无权重） =====
-criterion = nn.CrossEntropyLoss().to(device)
-print(f"✅ 使用普通交叉熵损失")
+# ===== 论文损失: CE + MSE + L2 (Fed_Fusion_Loss) =====
+criterion = Fed_Fusion_Loss(weight=None).to(device)
+print(f"✅ 使用 Fed_Fusion_Loss (CE + MSE + L2)")
 # ====================================
 
 if inference_only is False:

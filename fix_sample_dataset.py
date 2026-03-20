@@ -22,7 +22,8 @@ print(f"数据目录: {dataset_dir}")
 
 # 加载数据（使用正确的变量名）
 HSI_MapSet = scio.loadmat(os.path.join(dataset_dir, f'HSI.mat'))['HSI_Trento']
-LiDAR_MapSet = scio.loadmat(os.path.join(dataset_dir, f'LiDAR.mat'))['Lidar_Trento']
+# Trento 数据集文件名为 Lidar.mat（小写 d），变量名为 Lidar_Trento
+LiDAR_MapSet = scio.loadmat(os.path.join(dataset_dir, f'Lidar.mat'))['Lidar_Trento']
 TrLabel = scio.loadmat(os.path.join(dataset_dir, f'TrLabel.mat'))['TrLabel']
 TeLabel = scio.loadmat(os.path.join(dataset_dir, f'TeLabel.mat'))['TeLabel']
 
